@@ -1,0 +1,9 @@
+G:\GitHub\CapstoneProject\MBSWPFUserInterface\MBSLibrary\bin\Debug\MBS-Database.mdf
+G:\GitHub\CapstoneProject\MBSWPFUserInterface\MBSLibrary\bin\Debug\MBS-Database_log.ldf
+G:\GitHub\CapstoneProject\MBSWPFUserInterface\MBSLibrary\bin\Debug\MBSLibrary.dll.config
+G:\GitHub\CapstoneProject\MBSWPFUserInterface\MBSLibrary\bin\Debug\MBSLibrary.dll
+G:\GitHub\CapstoneProject\MBSWPFUserInterface\MBSLibrary\bin\Debug\MBSLibrary.pdb
+G:\GitHub\CapstoneProject\MBSWPFUserInterface\MBSLibrary\obj\Debug\MBSLibrary.csprojAssemblyReference.cache
+G:\GitHub\CapstoneProject\MBSWPFUserInterface\MBSLibrary\obj\Debug\MBSLibrary.csproj.CoreCompileInputs.cache
+G:\GitHub\CapstoneProject\MBSWPFUserInterface\MBSLibrary\obj\Debug\MBSLibrary.dll
+G:\GitHub\CapstoneProject\MBSWPFUserInterface\MBSLibrary\obj\Debug\MBSLibrary.pdb

@@ -21,3 +21,32 @@ C:\Users\The King\Desktop\MBSWPFUserInterface\WPFUI\obj\Debug\App.baml
 C:\Users\The King\Desktop\MBSWPFUserInterface\WPFUI\obj\Debug\Views\AdminCenterView.baml
 C:\Users\The King\Desktop\MBSWPFUserInterface\WPFUI\obj\Debug\Views\LoginView.baml
 C:\Users\The King\Desktop\MBSWPFUserInterface\WPFUI\obj\Debug\Views\ManageAccountView.baml
+G:\GitHub\CapstoneProject\MBSWPFUserInterface\WPFUI\bin\Debug\MBS-Database.mdf
+G:\GitHub\CapstoneProject\MBSWPFUserInterface\WPFUI\bin\Debug\MBS-Database_log.ldf
+G:\GitHub\CapstoneProject\MBSWPFUserInterface\WPFUI\bin\Debug\WPFUI.exe.config
+G:\GitHub\CapstoneProject\MBSWPFUserInterface\WPFUI\bin\Debug\WPFUI.exe
+G:\GitHub\CapstoneProject\MBSWPFUserInterface\WPFUI\bin\Debug\WPFUI.pdb
+G:\GitHub\CapstoneProject\MBSWPFUserInterface\WPFUI\bin\Debug\MBSLibrary.dll
+G:\GitHub\CapstoneProject\MBSWPFUserInterface\WPFUI\bin\Debug\MBSLibrary.pdb
+G:\GitHub\CapstoneProject\MBSWPFUserInterface\WPFUI\bin\Debug\MBSLibrary.dll.config
+G:\GitHub\CapstoneProject\MBSWPFUserInterface\WPFUI\obj\Debug\WPFUI.csprojAssemblyReference.cache
+G:\GitHub\CapstoneProject\MBSWPFUserInterface\WPFUI\obj\Debug\MainWindow.g.cs
+G:\GitHub\CapstoneProject\MBSWPFUserInterface\WPFUI\obj\Debug\Views\AdminCenterView.g.cs
+G:\GitHub\CapstoneProject\MBSWPFUserInterface\WPFUI\obj\Debug\Views\LoginView.g.cs
+G:\GitHub\CapstoneProject\MBSWPFUserInterface\WPFUI\obj\Debug\Views\ManageAccountView.g.cs
+G:\GitHub\CapstoneProject\MBSWPFUserInterface\WPFUI\obj\Debug\App.g.cs
+G:\GitHub\CapstoneProject\MBSWPFUserInterface\WPFUI\obj\Debug\GeneratedInternalTypeHelper.g.cs
+G:\GitHub\CapstoneProject\MBSWPFUserInterface\WPFUI\obj\Debug\WPFUI_MarkupCompile.cache
+G:\GitHub\CapstoneProject\MBSWPFUserInterface\WPFUI\obj\Debug\WPFUI_MarkupCompile.lref
+G:\GitHub\CapstoneProject\MBSWPFUserInterface\WPFUI\obj\Debug\App.baml
+G:\GitHub\CapstoneProject\MBSWPFUserInterface\WPFUI\obj\Debug\MainWindow.baml
+G:\GitHub\CapstoneProject\MBSWPFUserInterface\WPFUI\obj\Debug\Views\AdminCenterView.baml
+G:\GitHub\CapstoneProject\MBSWPFUserInterface\WPFUI\obj\Debug\Views\LoginView.baml
+G:\GitHub\CapstoneProject\MBSWPFUserInterface\WPFUI\obj\Debug\Views\ManageAccountView.baml
+G:\GitHub\CapstoneProject\MBSWPFUserInterface\WPFUI\obj\Debug\WPFUI.g.resources
+G:\GitHub\CapstoneProject\MBSWPFUserInterface\WPFUI\obj\Debug\WPFUI.Properties.Resources.resources
+G:\GitHub\CapstoneProject\MBSWPFUserInterface\WPFUI\obj\Debug\WPFUI.csproj.GenerateResource.cache
+G:\GitHub\CapstoneProject\MBSWPFUserInterface\WPFUI\obj\Debug\WPFUI.csproj.CoreCompileInputs.cache
+G:\GitHub\CapstoneProject\MBSWPFUserInterface\WPFUI\obj\Debug\WPFUI.csproj.CopyComplete
+G:\GitHub\CapstoneProject\MBSWPFUserInterface\WPFUI\obj\Debug\WPFUI.exe
+G:\GitHub\CapstoneProject\MBSWPFUserInterface\WPFUI\obj\Debug\WPFUI.pdb
