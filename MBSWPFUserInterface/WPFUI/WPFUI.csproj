@@ -124,5 +124,11 @@
     <Folder Include="Images\" />
     <Folder Include="Models\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MBSLibrary\MBSLibrary.csproj">
+      <Project>{e6f39fb6-e513-48c6-b0b7-68205f3ff637}</Project>
+      <Name>MBSLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
