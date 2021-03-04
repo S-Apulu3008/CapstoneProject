@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,6 +13,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using MBSLibrary;
 
 namespace WPFUI.Views
 {
@@ -23,6 +25,7 @@ namespace WPFUI.Views
         public LoginView()
         {
             InitializeComponent();
+            //con = Helper.CnnVal("MBS-Database");
         }
 
         private void btnLogin_Click(object sender, RoutedEventArgs e) 

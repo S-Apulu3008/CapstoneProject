@@ -32,7 +32,7 @@
                     </StackPanel>
                     <StackPanel Orientation="Horizontal" Margin="10">
                         <materialDesign:PackIcon Kind="Lock" Width="25" Height="25" Foreground="White"/>
-                        <PasswordBox x:Name="txtPassword" Margin="10 10" materialDesign:HintAssist.Hint="*************"
+                        <TextBox x:Name="txtPassword" Margin="10 10" materialDesign:HintAssist.Hint="*************"
                                  Foreground="White" Width="250"/>
                     </StackPanel>
                     <StackPanel Margin="10" HorizontalAlignment="Center">

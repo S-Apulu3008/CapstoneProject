@@ -54,3 +54,4 @@ C:\Users\The King\Documents\GitHub\CapstoneProject\MBSWPFUserInterface\WPFUI\obj
 C:\Users\The King\Documents\GitHub\CapstoneProject\MBSWPFUserInterface\WPFUI\obj\Debug\WPFUI.csproj.GenerateResource.cache
 C:\Users\The King\Documents\GitHub\CapstoneProject\MBSWPFUserInterface\WPFUI\obj\Debug\WPFUI.csproj.CoreCompileInputs.cache
 C:\Users\The King\Documents\GitHub\CapstoneProject\MBSWPFUserInterface\WPFUI\obj\Debug\WPFUI.csproj.CopyComplete
+C:\Users\The King\Documents\GitHub\CapstoneProject\MBSWPFUserInterface\WPFUI\bin\Debug\MBSLibrary.dll.config
