@@ -14,6 +14,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using MBSLibrary;
+using WPFUI.ViewModels;
 
 namespace WPFUI.Views
 {
@@ -79,6 +80,11 @@ namespace WPFUI.Views
                 }
             }
 
+        }
+
+        private void btnRegister_Click(object sender, RoutedEventArgs e)
+        {
+           
         }
     }
 }

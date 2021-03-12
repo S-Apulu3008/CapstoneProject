@@ -8,5 +8,6 @@ namespace WPFUI.ViewModels
 {
     public class LoginViewModel : BaseViewModel
     {
+        
     }
 }
