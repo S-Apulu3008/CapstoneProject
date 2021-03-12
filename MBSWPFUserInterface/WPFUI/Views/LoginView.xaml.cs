@@ -30,7 +30,55 @@ namespace WPFUI.Views
 
         private void btnLogin_Click(object sender, RoutedEventArgs e) 
         {
+            List<Customer> customers = new List<Customer>();
+            List<Employee> employees = new List<Employee>();
             
+            Customer inputUser = new Customer();
+            Employee inputID = new Employee();
+            DataAccess db = new DataAccess();
+
+            if (txtUsername.Text.Contains("@"))
+            {
+                customers = db.GetCustomers(inputUser.Email);
+                try
+                {
+                    inputUser = customers[0];
+                    if (inputUser.Password.Equals(txtPassword.Text))
+                    {
+                        MessageBox.Show($"Customer Log In Successful");
+                    }
+                    else 
+                    {
+                        MessageBox.Show($"Invalid username or password");
+                    }
+                }
+                catch (Exception ex)
+                {
+
+                    MessageBox.Show("Invalid user name or password");
+                }
+            }
+            else if(txtUsername.Text.Contains("A") && !txtUsername.Text.Contains("@"))
+            {
+                employees = db.GetEmployees(inputID.EmployeeID);
+                try
+                {
+                    inputID = employees[0];
+                    if (inputID.Password.Equals(txtPassword.Text))
+                    {
+                        MessageBox.Show("Employee Log In Successful");
+                    }
+                    else 
+                    {
+                        MessageBox.Show("Invalid username or password");
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Invalid username or password");
+                }
+            }
+
         }
     }
 }

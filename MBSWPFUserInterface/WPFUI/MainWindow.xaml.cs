@@ -42,5 +42,15 @@ namespace WPFUI
         {
 
         }
+
+        private void btnSearch_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnSignIn_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

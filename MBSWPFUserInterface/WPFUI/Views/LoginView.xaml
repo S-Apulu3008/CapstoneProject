@@ -8,7 +8,7 @@
              mc:Ignorable="d" Background="White"
              d:DesignHeight="400" d:DesignWidth="800">
     <Grid>
-        <Border Height="450">
+        <Border Height="400">
             <Border.Background>
                 <LinearGradientBrush>
                     <GradientStop Color="#7be9f6" Offset="0.0"/>

@@ -7,3 +7,6 @@ C:\Users\The King\Documents\GitHub\CapstoneProject\MBSWPFUserInterface\MBSLibrar
 C:\Users\The King\Documents\GitHub\CapstoneProject\MBSWPFUserInterface\MBSLibrary\obj\Debug\MBSLibrary.dll
 C:\Users\The King\Documents\GitHub\CapstoneProject\MBSWPFUserInterface\MBSLibrary\obj\Debug\MBSLibrary.pdb
 C:\Users\The King\Documents\GitHub\CapstoneProject\MBSWPFUserInterface\MBSLibrary\bin\Debug\MBSLibrary.dll.config
+C:\Users\The King\Documents\GitHub\CapstoneProject\MBSWPFUserInterface\MBSLibrary\bin\Debug\Dapper.dll
+C:\Users\The King\Documents\GitHub\CapstoneProject\MBSWPFUserInterface\MBSLibrary\bin\Debug\Dapper.xml
+C:\Users\The King\Documents\GitHub\CapstoneProject\MBSWPFUserInterface\MBSLibrary\obj\Debug\MBSLibrary.csproj.CopyComplete

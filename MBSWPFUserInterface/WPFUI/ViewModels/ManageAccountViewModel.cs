@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WPFUI.ViewModels
 {
-    class ManageAccountViewModel : BaseViewModel
+    public class ManageAccountViewModel : BaseViewModel
     {
     }
 }

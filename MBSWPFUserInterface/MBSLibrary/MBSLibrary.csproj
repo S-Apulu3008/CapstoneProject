@@ -60,7 +60,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Customer.cs" />
+    <Compile Include="DataAccess.cs" />
+    <Compile Include="Employee.cs" />
     <Compile Include="Helper.cs" />
+    <Compile Include="Manager.cs" />
     <Compile Include="MBS_DataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>

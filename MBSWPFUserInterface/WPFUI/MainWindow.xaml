@@ -4,6 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPFUI"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Window.Resources>
@@ -31,6 +32,32 @@
             </MenuItem>
         </Menu>
         <Grid>
+            <Border>
+                <Border.Background>
+                    <LinearGradientBrush>
+                        <GradientStop Color="#FF045059" Offset="0.0"/>
+                        <GradientStop Color="#FF5B4D58" Offset="1"/>
+                    </LinearGradientBrush>
+                </Border.Background>
+            </Border>
+            <StackPanel Orientation="Vertical">
+                <StackPanel Height="50">
+                    <TextBlock Text="Modern Business Solution" HorizontalAlignment="Center" FontSize="35" Foreground="White"/>
+                </StackPanel>
+                <StackPanel Height="100" Margin="0 30">
+                    <TextBox x:Name="txtSearchBar" Margin="30" Background="White" materialDesign:HintAssist.Hint="Search for a product"/>
+                </StackPanel>
+                <StackPanel Height="100"  Orientation="Horizontal" HorizontalAlignment="Center">
+                    <Button Width="100" Height="40" Style="{StaticResource MaterialDesignRaisedButton}"
+                                materialDesign:ButtonAssist.CornerRadius="10" BorderThickness="2"
+                                Background="White" Foreground="black" x:Name="btnSearch" Click="btnSearch_Click" Content="Search"  />
+
+                    <Button Width="100" Height="40" Style="{StaticResource MaterialDesignRaisedButton}"
+                                materialDesign:ButtonAssist.CornerRadius="10" BorderThickness="2"
+                                Background="White" Foreground="black" x:Name="btnSignIn" Click="btnSignIn_Click" Content="Sign In" Margin="25"
+                                Command="{Binding UpdateViewCommand}" CommandParameter="Login"/>
+                </StackPanel>
+            </StackPanel>
             <ContentControl Content="{Binding SelectedViewModel}" x:Name="ActiveItem" Margin="5"/>
         </Grid>
     </DockPanel>
