@@ -10,9 +10,9 @@ namespace WPFUI.Commands
 {
     public class UpdateViewCommand : ICommand
     {
-        private MainViewModel viewModel;
+        private BaseViewModel viewModel;
 
-        public UpdateViewCommand(MainViewModel viewModel)
+        public UpdateViewCommand(BaseViewModel viewModel)
         {
             this.viewModel = viewModel;
         }
@@ -30,9 +30,13 @@ namespace WPFUI.Commands
             {
                 viewModel.SelectedViewModel = new LoginViewModel();
             }
-            else if (parameter.ToString() == "Manage Account") 
+            else if (parameter.ToString() == "Manage Account")
             {
                 viewModel.SelectedViewModel = new ManageAccountViewModel();
+            }
+            else if (parameter.ToString() == "Register") 
+            {
+                viewModel.SelectedViewModel = new RegisterViewModel();
             }
         }
     }

@@ -4,6 +4,8 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:WPFUI.Views"
+             xmlns:viewmodels="clr-namespace:WPFUI.ViewModels"
+             xmlns:views="clr-namespace:WPFUI.Views"
              xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
              mc:Ignorable="d" Background="White"
              d:DesignHeight="400" d:DesignWidth="800">
@@ -48,5 +50,6 @@
                 </StackPanel>
             </StackPanel>
         </StackPanel>
+        <ContentControl Content="{Binding SelectedViewModel}" x:Name="ActiveItem" Margin="5"/>
     </Grid>
 </UserControl>
