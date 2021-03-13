@@ -27,6 +27,9 @@ namespace WPFUI.Views
         {
             InitializeComponent();
             //con = Helper.CnnVal("MBS-Database");
+
+
+            DataContext = new LoginViewModel();
         }
 
         private void btnLogin_Click(object sender, RoutedEventArgs e) 
@@ -40,7 +43,7 @@ namespace WPFUI.Views
 
             if (txtUsername.Text.Contains("@"))
             {
-                customers = db.GetCustomers(inputUser.Email);
+                customers = db.GetCustomers(txtUsername.Text);
                 try
                 {
                     inputUser = customers[0];
@@ -61,7 +64,7 @@ namespace WPFUI.Views
             }
             else if(txtUsername.Text.Contains("A") && !txtUsername.Text.Contains("@"))
             {
-                employees = db.GetEmployees(inputID.EmployeeID);
+                employees = db.GetEmployees(txtUsername.Text);
                 try
                 {
                     inputID = employees[0];
