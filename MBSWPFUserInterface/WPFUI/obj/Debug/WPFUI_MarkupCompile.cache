@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-G:\GitHub\CapstoneProject\MBSWPFUserInterface\WPFUI\obj\Debug\
+C:\Users\The King\Documents\GitHub\CapstoneProject\MBSWPFUserInterface\WPFUI\obj\Debug\
 WPFUI
 none
 false
 DEBUG;TRACE
-G:\GitHub\CapstoneProject\MBSWPFUserInterface\WPFUI\App.xaml
+C:\Users\The King\Documents\GitHub\CapstoneProject\MBSWPFUserInterface\WPFUI\App.xaml
 5-1170472666
 
-16894832793
-1893123786
+151737192160
+18156614537
 MainWindow.xaml;Views\AdminCenterView.xaml;Views\LoginView.xaml;Views\ManageAccountView.xaml;Views\RegisterView.xaml;
 
-True
+False
 

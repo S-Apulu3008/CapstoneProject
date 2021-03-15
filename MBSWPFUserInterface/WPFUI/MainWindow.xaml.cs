@@ -52,5 +52,10 @@ namespace WPFUI
         {
 
         }
+
+        private void MenuHome_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

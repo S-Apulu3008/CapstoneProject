@@ -50,13 +50,14 @@ namespace WPFUI.Views
                     if (inputUser.Password.Equals(txtPassword.Text))
                     {
                         MessageBox.Show($"Customer Log In Successful");
+
                     }
                     else 
                     {
                         MessageBox.Show($"Invalid username or password");
                     }
                 }
-                catch (Exception ex)
+                catch (Exception)
                 {
 
                     MessageBox.Show("Invalid user name or password");
@@ -77,7 +78,7 @@ namespace WPFUI.Views
                         MessageBox.Show("Invalid username or password");
                     }
                 }
-                catch (Exception ex)
+                catch (Exception)
                 {
                     MessageBox.Show("Invalid username or password");
                 }

@@ -34,9 +34,13 @@ namespace WPFUI.Commands
             {
                 viewModel.SelectedViewModel = new ManageAccountViewModel();
             }
-            else if (parameter.ToString() == "Register") 
+            else if (parameter.ToString() == "Register")
             {
                 viewModel.SelectedViewModel = new RegisterViewModel();
+            }
+            else if (parameter.ToString() == "Home") 
+            {
+                viewModel.SelectedViewModel = new MainViewModel();
             }
         }
     }
