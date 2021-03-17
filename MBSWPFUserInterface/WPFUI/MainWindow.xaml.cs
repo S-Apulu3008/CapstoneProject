@@ -30,7 +30,7 @@ namespace WPFUI
 
         private void MenuExit_Click(object sender, RoutedEventArgs e)
         {
-
+            this.Close();
         }
 
         private void MenuManageAccount_Click(object sender, RoutedEventArgs e)

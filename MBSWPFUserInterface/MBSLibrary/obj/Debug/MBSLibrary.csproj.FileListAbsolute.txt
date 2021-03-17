@@ -6,3 +6,12 @@ C:\Users\The King\Documents\GitHub\CapstoneProject\MBSWPFUserInterface\MBSLibrar
 C:\Users\The King\Documents\GitHub\CapstoneProject\MBSWPFUserInterface\MBSLibrary\obj\Debug\MBSLibrary.csproj.CoreCompileInputs.cache
 C:\Users\The King\Documents\GitHub\CapstoneProject\MBSWPFUserInterface\MBSLibrary\obj\Debug\MBSLibrary.dll
 C:\Users\The King\Documents\GitHub\CapstoneProject\MBSWPFUserInterface\MBSLibrary\obj\Debug\MBSLibrary.pdb
+C:\Users\Sene\Documents\GitHub\CapstoneProject\MBSWPFUserInterface\MBSLibrary\bin\Debug\MBS-Database.mdf
+C:\Users\Sene\Documents\GitHub\CapstoneProject\MBSWPFUserInterface\MBSLibrary\bin\Debug\MBS-Database_log.ldf
+C:\Users\Sene\Documents\GitHub\CapstoneProject\MBSWPFUserInterface\MBSLibrary\bin\Debug\MBSLibrary.dll.config
+C:\Users\Sene\Documents\GitHub\CapstoneProject\MBSWPFUserInterface\MBSLibrary\bin\Debug\MBSLibrary.dll
+C:\Users\Sene\Documents\GitHub\CapstoneProject\MBSWPFUserInterface\MBSLibrary\bin\Debug\MBSLibrary.pdb
+C:\Users\Sene\Documents\GitHub\CapstoneProject\MBSWPFUserInterface\MBSLibrary\obj\Debug\MBSLibrary.csprojAssemblyReference.cache
+C:\Users\Sene\Documents\GitHub\CapstoneProject\MBSWPFUserInterface\MBSLibrary\obj\Debug\MBSLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Sene\Documents\GitHub\CapstoneProject\MBSWPFUserInterface\MBSLibrary\obj\Debug\MBSLibrary.dll
+C:\Users\Sene\Documents\GitHub\CapstoneProject\MBSWPFUserInterface\MBSLibrary\obj\Debug\MBSLibrary.pdb
