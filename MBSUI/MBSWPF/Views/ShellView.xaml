@@ -7,7 +7,17 @@
         xmlns:controls="clr-namespace:MBSWPF.Controls"
         mc:Ignorable="d"
         Title="ShellView" Height="450" Width="800">
-    <Grid>
-        <ContentControl Grid.Row="1" x:Name="ActiveItem"/>
-    </Grid>
+    <DockPanel>
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="_File">
+                <MenuItem Header="_Exit"/>
+            </MenuItem>
+            <MenuItem Header="_Home"/>
+            <MenuItem Header="_Account"/>
+            <MenuItem Header="_Inventory"/>
+        </Menu>
+        <Grid>
+            
+        </Grid>
+    </DockPanel>
 </Window>

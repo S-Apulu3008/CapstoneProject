@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\The King\Desktop\Capstone\MBSUI\MBSWPF\obj\Debug\
+C:\Users\The King\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\
 MBSWPF
 none
 false
 DEBUG;TRACE
-C:\Users\The King\Desktop\Capstone\MBSUI\MBSWPF\App.xaml
-4-634158262
+C:\Users\The King\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\App.xaml
+2-1457085834
 
-12719172926
-123-1400090156
-Controls\NavigationBar.xaml;Styles\Common.xaml;Views\LoginView.xaml;Views\ShellView.xaml;
+121636212519
+123287906748
+Views\LoginView.xaml;Views\ShellView.xaml;
 
-False
+True
 
