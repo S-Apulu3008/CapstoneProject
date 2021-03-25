@@ -1,3 +1,7 @@
 
 *.lref
 *.cache
+ModernBusinessSolution/.vs/ModernBusinessSolution/v16/.suo
+*.cache
+*.baml
+*.jfm

@@ -35,7 +35,7 @@ namespace LoginUI
             SqlDataAdapter sda = new SqlDataAdapter(query, sqlCnn);
             DataTable dataTable = new DataTable();
             sda.Fill(dataTable);
-
+            //TODO Clicking submit button causes error.
             MessageBox.Show(dataTable.Rows[0].ToString());
         }
     }
