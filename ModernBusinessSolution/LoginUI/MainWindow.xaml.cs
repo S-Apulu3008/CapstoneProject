@@ -30,12 +30,14 @@ namespace LoginUI
         private void submitButton_Click(object sender, RoutedEventArgs e)
         {
                                                    //@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\dev\ProductSuggest\LoginForm\LoginDB.mdf;Integrated Security=True"
-            SqlConnection sqlCnn = new SqlConnection(@"Data Source=(localdb)\ProjectsV13; Integrated Security = True; Persist Security Info = False; Pooling = False; MultipleActiveResultSets = False; Connect Timeout = 60; Encrypt = False; TrustServerCertificate = False");
-            string query = "select * from employee";
+            SqlConnection sqlCnn = new SqlConnection(@"Data Source=(localdb)\ProjectsV13; Integrated Security = True;");
+            string query = "SELECT * FROM Employee";
             SqlDataAdapter sda = new SqlDataAdapter(query, sqlCnn);
             DataTable dataTable = new DataTable();
             sda.Fill(dataTable);
             //TODO Clicking submit button causes error.
+            //Comment
+
             MessageBox.Show(dataTable.Rows[0].ToString());
         }
     }
