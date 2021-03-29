@@ -10,20 +10,12 @@ namespace MBSLibrary
 {
     public class DataAccess
     {
-        public List<Customer> GetCustomers(string Email) 
-        {
-            using (IDbConnection connection = new System.Data.SqlClient.SqlConnection(Helper.CnnVal("MBS-Database"))) 
-            {
-                var output = connection.Query<Customer>($"select * from CustomerAccounts where Email = '{Email}'").ToList();
-                return output;
-            }
-        }
-
-        public List<Employee> GetEmployees(string EmployeeID) 
+        
+        public List<Employee> GetEmployees(string employeeID) 
         {
             using (IDbConnection connection = new System.Data.SqlClient.SqlConnection(Helper.CnnVal("MBS-Database")))
             {
-                var output =  connection.Query<Employee>($"select * from EmployeeAccounts where EmployeeID = '{EmployeeID}'").ToList();
+                var output =  connection.Query<Employee>($"dbo.GetEmployee @EmployeeID", new {EmployeeID = employeeID }).ToList();
                 return output;
             }
         }
