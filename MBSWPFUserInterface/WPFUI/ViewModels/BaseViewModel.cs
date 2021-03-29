@@ -15,5 +15,17 @@ namespace WPFUI.ViewModels
         {
             PropertyChanged.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
+
+        private BaseViewModel _selectedViewModel;
+
+        public BaseViewModel SelectedViewModel
+        {
+            get { return _selectedViewModel; }
+            set
+            {
+                _selectedViewModel = value;
+                OnPropertyChanged(nameof(SelectedViewModel));
+            }
+        }
     }
 }

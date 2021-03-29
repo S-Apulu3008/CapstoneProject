@@ -4,11 +4,13 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:WPFUI.Views"
+             xmlns:viewmodels="clr-namespace:WPFUI.ViewModels"
+             xmlns:views="clr-namespace:WPFUI.Views"
              xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
              mc:Ignorable="d" Background="White"
              d:DesignHeight="400" d:DesignWidth="800">
     <Grid>
-        <Border Height="450">
+        <Border Height="400">
             <Border.Background>
                 <LinearGradientBrush>
                     <GradientStop Color="#7be9f6" Offset="0.0"/>
@@ -22,7 +24,7 @@
                           FontSize="38" TextWrapping="Wrap" Padding="20" FontFamily="Garamond"/>
             </StackPanel>
             <StackPanel Width="350">
-                <StackPanel Margin="20 40">
+                <StackPanel Margin="30 50">
                     <TextBlock Text="User Login" Margin="20" TextAlignment="Center" FontSize="38"
                               FontFamily="Garamond" />
                     <StackPanel Orientation="Horizontal" Margin="10">
@@ -32,16 +34,22 @@
                     </StackPanel>
                     <StackPanel Orientation="Horizontal" Margin="10">
                         <materialDesign:PackIcon Kind="Lock" Width="25" Height="25" Foreground="White"/>
-                        <PasswordBox x:Name="txtPassword" Margin="10 10" materialDesign:HintAssist.Hint="*************"
+                        <TextBox x:Name="txtPassword" Margin="10 10" materialDesign:HintAssist.Hint="*************"
                                  Foreground="White" Width="250"/>
                     </StackPanel>
                     <StackPanel Margin="10" HorizontalAlignment="Center">
                         <Button Width="100" Height="40" Style="{StaticResource MaterialDesignRaisedButton}"
                                 materialDesign:ButtonAssist.CornerRadius="10" BorderThickness="2"
                                 Background="White" Foreground="black" x:Name="btnLogin" Click="btnLogin_Click" Content="Login" />
+
+                        <Button Width="100" Height="40" Style="{StaticResource MaterialDesignRaisedButton}"
+                                materialDesign:ButtonAssist.CornerRadius="10" BorderThickness="2"
+                                Background="White" Foreground="black" x:Name="btnRegister" Click="btnRegister_Click" Content="Register" 
+                                Command="{Binding UpdateViewCommand}" CommandParameter="Register"/>
                     </StackPanel>
                 </StackPanel>
             </StackPanel>
         </StackPanel>
+        <ContentControl Content="{Binding SelectedViewModel}" x:Name="ActiveItem" Margin="5"/>
     </Grid>
 </UserControl>
