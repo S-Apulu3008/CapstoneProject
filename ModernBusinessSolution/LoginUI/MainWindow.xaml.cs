@@ -40,5 +40,10 @@ namespace LoginUI
 
             MessageBox.Show(dataTable.Rows[0].ToString());
         }
+
+        private void cancelButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
     }
 }
