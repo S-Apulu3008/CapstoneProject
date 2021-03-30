@@ -13,5 +13,10 @@ namespace WPFUI.ViewModels
     {
         public INavigator Navigator { get; set; } = new Navigator();
 
+        public MainViewModel()
+        {
+            Navigator.UpdateCurrentViewModelComand.Execute(ViewType.Home);
+        }
+
     }
 }
