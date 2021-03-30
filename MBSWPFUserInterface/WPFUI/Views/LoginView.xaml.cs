@@ -14,6 +14,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using MBSLibrary;
+using MBSLibrary.Models;
 using WPFUI.ViewModels;
 
 namespace WPFUI.Views
@@ -34,36 +35,15 @@ namespace WPFUI.Views
 
         private void btnLogin_Click(object sender, RoutedEventArgs e) 
         {
-            List<Customer> customers = new List<Customer>();
+            
             List<Employee> employees = new List<Employee>();
             
-            Customer inputUser = new Customer();
+            
             Employee inputID = new Employee();
             DataAccess db = new DataAccess();
 
-            if (txtUsername.Text.Contains("@"))
-            {
-                customers = db.GetCustomers(txtUsername.Text);
-                try
-                {
-                    inputUser = customers[0];
-                    if (inputUser.Password.Equals(txtPassword.Text))
-                    {
-                        MessageBox.Show($"Customer Log In Successful");
-
-                    }
-                    else 
-                    {
-                        MessageBox.Show($"Invalid username or password");
-                    }
-                }
-                catch (Exception)
-                {
-
-                    MessageBox.Show("Invalid user name or password");
-                }
-            }
-            else if(txtUsername.Text.Contains("A") && !txtUsername.Text.Contains("@"))
+            
+            if(txtUsername.Text.Contains("A") && !txtUsername.Text.Contains("@"))
             {
                 employees = db.GetEmployees(txtUsername.Text);
                 try

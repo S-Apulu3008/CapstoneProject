@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 G:\GitHub\CapstoneProject\MBSWPFUserInterface\WPFUI\App.xaml
-5-1170472666
+7-2103153304
 
-151737192160
+21-1074258915
 1893123786
-MainWindow.xaml;Views\AdminCenterView.xaml;Views\LoginView.xaml;Views\ManageAccountView.xaml;Views\RegisterView.xaml;
+Controls\NavigationBar.xaml;MainWindow.xaml;Views\AdminCenterView.xaml;Views\HomeView.xaml;Views\LoginView.xaml;Views\ManageAccountView.xaml;Views\RegisterView.xaml;
 
 False
 

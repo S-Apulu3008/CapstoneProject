@@ -10,11 +10,6 @@ namespace WPFUI.ViewModels
 {
     public class LoginViewModel : BaseViewModel
     {
-        public ICommand UpdateViewCommand { get; set; }
-
-        public LoginViewModel()
-        {
-            UpdateViewCommand = new UpdateViewCommand(this);
-        }
+        
     }
 }

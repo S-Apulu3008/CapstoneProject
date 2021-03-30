@@ -1,4 +1,5 @@
 ﻿using Dapper;
+using MBSLibrary.Models;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -13,7 +14,7 @@ namespace MBSLibrary
         
         public List<Employee> GetEmployees(string employeeID) 
         {
-            using (IDbConnection connection = new System.Data.SqlClient.SqlConnection(Helper.CnnVal("MBS-Database")))
+            using (IDbConnection connection = new System.Data.SqlClient.SqlConnection(ConnectionStringHelper.CnnVal("MBS-Database")))
             {
                 var output =  connection.Query<Employee>($"dbo.GetEmployee @EmployeeID", new {EmployeeID = employeeID }).ToList();
                 return output;

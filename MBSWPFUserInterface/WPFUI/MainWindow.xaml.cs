@@ -25,37 +25,8 @@ namespace WPFUI
         {
             InitializeComponent();
 
-            DataContext = new MainViewModel();
-        }
-
-        private void MenuExit_Click(object sender, RoutedEventArgs e)
-        {
-            this.Close();
-        }
-
-        private void MenuManageAccount_Click(object sender, RoutedEventArgs e)
-        {
             
         }
-
-        private void MenuLogin_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void btnSearch_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void btnSignIn_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void MenuHome_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
+        
     }
 }

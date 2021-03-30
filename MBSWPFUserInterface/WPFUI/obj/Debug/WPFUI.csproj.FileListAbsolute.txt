@@ -97,3 +97,7 @@ G:\GitHub\CapstoneProject\MBSWPFUserInterface\WPFUI\obj\Debug\WPFUI.csproj.CoreC
 G:\GitHub\CapstoneProject\MBSWPFUserInterface\WPFUI\obj\Debug\WPFUI.csproj.CopyComplete
 G:\GitHub\CapstoneProject\MBSWPFUserInterface\WPFUI\obj\Debug\WPFUI.exe
 G:\GitHub\CapstoneProject\MBSWPFUserInterface\WPFUI\obj\Debug\WPFUI.pdb
+G:\GitHub\CapstoneProject\MBSWPFUserInterface\WPFUI\obj\Debug\Controls\NavigationBar.g.cs
+G:\GitHub\CapstoneProject\MBSWPFUserInterface\WPFUI\obj\Debug\Views\HomeView.g.cs
+G:\GitHub\CapstoneProject\MBSWPFUserInterface\WPFUI\obj\Debug\Controls\NavigationBar.baml
+G:\GitHub\CapstoneProject\MBSWPFUserInterface\WPFUI\obj\Debug\Views\HomeView.baml
