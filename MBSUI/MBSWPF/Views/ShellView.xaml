@@ -11,12 +11,16 @@
             <MenuItem Header="_File">
                 <MenuItem Header="_Exit"/>
             </MenuItem>
-            <MenuItem Header="_Home"/>
-            <MenuItem Header="_Account"/>
+            <MenuItem Header="_Home" x:Name="LoadHomeView"/>
+            <MenuItem Header="_Account" Name="LoadAccountView"/>
             <MenuItem Header="_Inventory"/>
         </Menu>
         <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
             
+            <ContentControl Grid.Column="0" x:Name="ActiveItem" />
         </Grid>
     </DockPanel>
 </Window>

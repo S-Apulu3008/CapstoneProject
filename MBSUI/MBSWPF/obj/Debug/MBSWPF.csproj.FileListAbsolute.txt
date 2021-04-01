@@ -65,3 +65,7 @@ C:\Users\The King\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\MBSWPF
 C:\Users\The King\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\MBSWPF.csproj.GenerateResource.cache
 C:\Users\The King\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\MBSWPF.csproj.CoreCompileInputs.cache
 C:\Users\The King\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\MBSWPF.csproj.CopyComplete
+C:\Users\The King\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\Views\AccountView.g.cs
+C:\Users\The King\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\Views\HomeView.g.cs
+C:\Users\The King\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\Views\AccountView.baml
+C:\Users\The King\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\Views\HomeView.baml

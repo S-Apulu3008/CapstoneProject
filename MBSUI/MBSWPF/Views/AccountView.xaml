@@ -29,18 +29,6 @@
                     materialDesign:ButtonAssist.CornerRadius="10" BorderThickness="5"
                     Background="White" Foreground="Black" x:Name="btnClockOut" Content="Clock Out" Margin="10"/>
             </StackPanel>
-            <StackPanel Grid.Column="0" Orientation="Horizontal" Margin="20, 80, 40, 0">
-
-                <Button Width="100" Height="40" Style="{StaticResource MaterialDesignRaisedDarkButton}"
-                    materialDesign:ButtonAssist.CornerRadius="10" BorderThickness="5"
-                    Background="White" Foreground="Black" x:Name="btnStartMeal" Content="Start Meal" Margin="10"/>
-
-
-                <Button Width="100" Height="40" Style="{StaticResource MaterialDesignRaisedDarkButton}"
-                    materialDesign:ButtonAssist.CornerRadius="10" BorderThickness="5"
-                    Background="White" Foreground="Black" x:Name="btnEndMeal" Content="End Meal" Margin="10"/>
-
-            </StackPanel>
         </StackPanel>
         
     </Grid>
