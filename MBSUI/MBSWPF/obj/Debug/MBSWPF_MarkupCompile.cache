@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\The King\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\App.xaml
-2-1457085834
+41264190801
 
-11-1816395410
+14-1990349651
 123287906748
-Views\LoginView.xaml;Views\ShellView.xaml;
+Views\AccountView.xaml;Views\HomeView.xaml;Views\LoginView.xaml;Views\ShellView.xaml;
 
-False
+True
 
