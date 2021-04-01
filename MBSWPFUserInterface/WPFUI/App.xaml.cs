@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MBSLibrary.Services;
+using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.Data;
@@ -16,6 +17,9 @@ namespace WPFUI
     {
         protected override void OnStartup(StartupEventArgs e)
         {
+            IAuthenticationService authenticater = new AuthenticationService();
+            
+
             Window window = new MainWindow();
             window.DataContext = new MainViewModel();
             window.Show();

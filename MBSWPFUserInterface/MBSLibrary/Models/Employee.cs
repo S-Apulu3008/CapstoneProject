@@ -8,7 +8,7 @@ namespace MBSLibrary.Models
 {
     public class Employee
     {
-        public string Id { get; set; }
+        public string EmployeeID { get; set; }
 
         public string FirstName { get; set; }
 

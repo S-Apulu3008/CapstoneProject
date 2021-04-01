@@ -21,5 +21,13 @@ namespace MBSLibrary
             }
         }
 
+        public void AddEmployee(Employee employee)
+        {
+            using (IDbConnection connection = new System.Data.SqlClient.SqlConnection(ConnectionStringHelper.CnnVal("MBS-Database")))
+            {
+                connection.Execute("dbo.AddEmployee", employee, commandType: CommandType.StoredProcedure);                
+            }
+        }
+
     }
 }
