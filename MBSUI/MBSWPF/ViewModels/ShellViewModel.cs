@@ -10,16 +10,16 @@ namespace MBSWPF.ViewModels
     //Screen allows more control to open and close views.
     public class ShellViewModel : Conductor<object>
     {
-        private LoginViewModel _loginVM;
+        private HomeViewModel _homeVM;
         
         //Load login when shell view starts
         //Getting a login viewmodel and storing it in a private variable
-        public ShellViewModel(LoginViewModel loginVM)
+        public ShellViewModel(HomeViewModel homeVM)
         {
             //Constructor injection to pass in an instance then activate to use later.
-            _loginVM = loginVM;
+            _homeVM = homeVM;
             //Load the login form on the shell viem model
-            ActivateItem(_loginVM);
+            ActivateItem(_homeVM);
         }
 
         //Create a new instance of the home view model. 
