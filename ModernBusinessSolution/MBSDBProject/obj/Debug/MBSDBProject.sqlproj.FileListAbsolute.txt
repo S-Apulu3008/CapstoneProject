@@ -1,6 +1,0 @@
-C:\Users\Sene\Documents\GitHub\CapstoneProject\ModernBusinessSolution\MBSDBProject\bin\Debug\MBSDBProject.dacpac
-C:\Users\Sene\Documents\GitHub\CapstoneProject\ModernBusinessSolution\MBSDBProject\bin\Debug\MBSDBProject.dll
-C:\Users\Sene\Documents\GitHub\CapstoneProject\ModernBusinessSolution\MBSDBProject\bin\Debug\MBSDBProject.pdb
-C:\Users\Sene\Documents\GitHub\CapstoneProject\ModernBusinessSolution\MBSDBProject\obj\Debug\MBSDBProject.sqlprojAssemblyReference.cache
-C:\Users\Sene\Documents\GitHub\CapstoneProject\ModernBusinessSolution\MBSDBProject\obj\Debug\MBSDBProject.dll
-C:\Users\Sene\Documents\GitHub\CapstoneProject\ModernBusinessSolution\MBSDBProject\obj\Debug\MBSDBProject.pdb
