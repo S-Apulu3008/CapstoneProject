@@ -28,10 +28,28 @@ namespace MBSWPF.ViewModels
             ActivateItem(new HomeViewModel());
         }
 
-        //Create a new instance of the register view model
+        //Create a new instance of the account view model
         public void LoadAccountView() 
         {
             ActivateItem(new AccountViewModel());
+        }
+
+        //Create a new instance of the login view model
+        public void LoadLoginView() 
+        {
+            ActivateItem(new LoginViewModel());
+        }
+
+        //Create a new instance of the manager view model
+        public void LoadManagerView() 
+        {
+            ActivateItem(new ManagerViewModel());   
+        }
+
+        //Create a new instance of the register view model
+        public void LoadRegisterView() 
+        {
+            ActivateItem(new RegisterViewModel());
         }
     }
 }

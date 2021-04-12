@@ -9,6 +9,5 @@ namespace MBSWPF.ViewModels
 {
     public class ManagerViewModel : Screen
     {
-
     }
 }

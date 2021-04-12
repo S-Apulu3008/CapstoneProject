@@ -22,9 +22,11 @@
 
         <StackPanel Grid.Row="1">
             <TextBlock Margin="10,20" FontSize="20" Text="Controls" HorizontalAlignment="Center"/>
+
             <Button Margin="60" Style="{StaticResource MaterialDesignRaisedDarkButton}"
                     materialDesign:ButtonAssist.CornerRadius="10" BorderThickness="5"
-                    Foreground="White" Content="Register Employees" x:Name="LoadRegisterView"/>
+                    Foreground="White" Content="Register Employees" Name="LoadRegisterView" Click="LoadRegisterView_Click"/>
+
             <Button Margin="60,0" Style="{StaticResource MaterialDesignRaisedDarkButton}" 
                     materialDesign:ButtonAssist.CornerRadius="10" BorderThickness="5"
                     Foreground="White" Content="View/Order Inventory" x:Name="LoadInventoryView"/>

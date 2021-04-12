@@ -12,8 +12,9 @@
                 <MenuItem Header="_Exit"/>
             </MenuItem>
             <MenuItem Header="_Home" x:Name="LoadHomeView"/>
-            <MenuItem Header="_Account" Name="LoadAccountView">
-                <MenuItem Header="_Login"/>
+            <MenuItem Header="_Account">
+                <MenuItem Header="_Login" x:Name="LoadLoginView"/>
+                <MenuItem Header="_Management" Name="LoadManagerView"/>
             </MenuItem>
                 <MenuItem Header="_Inventory"/>
         </Menu>
