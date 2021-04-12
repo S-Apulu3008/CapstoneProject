@@ -12,8 +12,10 @@
                 <MenuItem Header="_Exit"/>
             </MenuItem>
             <MenuItem Header="_Home" x:Name="LoadHomeView"/>
-            <MenuItem Header="_Account" Name="LoadAccountView"/>
-            <MenuItem Header="_Inventory"/>
+            <MenuItem Header="_Account" Name="LoadAccountView">
+                <MenuItem Header="_Login"/>
+            </MenuItem>
+                <MenuItem Header="_Inventory"/>
         </Menu>
         <Grid>
             <Grid.ColumnDefinitions>
