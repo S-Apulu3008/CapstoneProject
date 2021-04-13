@@ -1,5 +1,4 @@
-﻿using MBSLibrary;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -21,7 +20,6 @@ namespace MBSWPF.Views
     /// </summary>
     public partial class LoginView : UserControl
     {
-        Authenticator authenticator = new Authenticator();
         public LoginView()
         {
             InitializeComponent();
@@ -29,13 +27,6 @@ namespace MBSWPF.Views
 
         private void btnLogin_Click(object sender, RoutedEventArgs e)
         {
-            string employeeId = txtUsername.Text;
-            string password = txtPassword.Password;
-
-            Employee thisEmployee = authenticator.Login(employeeId, password);
-
-
-            ActiveAccount.activeEmployee = thisEmployee;
 
         }
     }

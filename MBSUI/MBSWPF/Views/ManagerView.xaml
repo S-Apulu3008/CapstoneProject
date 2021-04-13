@@ -25,12 +25,13 @@
 
             <Button Margin="60" Style="{StaticResource MaterialDesignRaisedDarkButton}"
                     materialDesign:ButtonAssist.CornerRadius="10" BorderThickness="5"
-                    Foreground="White" Content="Register Employees" Name="LoadRegisterView" />
+                    Foreground="White" Content="Register Employees" x:Name="LoadRegisterView"/>
 
             <Button Margin="60,0" Style="{StaticResource MaterialDesignRaisedDarkButton}" 
                     materialDesign:ButtonAssist.CornerRadius="10" BorderThickness="5"
                     Foreground="White" Content="View/Order Inventory" x:Name="LoadInventoryView"/>
         </StackPanel>
-        <ContentControl Grid.RowSpan="2" x:Name="ActiveItem" /> 
+        <ContentControl Grid.RowSpan="2" x:Name="ActiveItem" />
+
     </Grid>
 </UserControl>

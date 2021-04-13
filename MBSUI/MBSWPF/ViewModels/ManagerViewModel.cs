@@ -7,12 +7,11 @@ using System.Threading.Tasks;
 
 namespace MBSWPF.ViewModels
 {
-    public class ManagerViewModel : Conductor<Object>
+    public class ManagerViewModel : Conductor<object> 
     {
-        public void LoadRegisterView()
+        public void LoadRegisterView() 
         {
             ActivateItem(new RegisterViewModel());
         }
-        
     }
 }
