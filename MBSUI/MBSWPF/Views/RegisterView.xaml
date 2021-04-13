@@ -18,7 +18,7 @@
         </Border>
         <StackPanel>
             <StackPanel Height="50">
-                <TextBlock Text="Register Employees" FontSize="35"/>
+                <TextBlock Text="Register Employees" FontSize="35" HorizontalAlignment="Center"/>
             </StackPanel>
             <StackPanel Height="400">
                 <TextBox x:Name="txtEmail" Margin="10 10" materialDesign:HintAssist.Hint="Employee ID"
