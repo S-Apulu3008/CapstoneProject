@@ -41,7 +41,9 @@
                     Foreground="Black" BorderBrush="Black" Background="White"
                     Content="Clock Out" x:Name="btnClockOut"/>
         </StackPanel>
-        
-        
+
+        <TextBlock Grid.Row="0" Grid.Column="1" x:Name="txtbUserName"/>
+
+
     </Grid>
 </UserControl>

@@ -19,6 +19,7 @@
         <StackPanel Orientation="Vertical">
             <StackPanel Height="60">
                 <TextBlock Text="Modern Business Solution" FontSize="49" TextAlignment="Center" Foreground="White"/>
+                
             </StackPanel>
             <StackPanel Height="220">
                 <TextBox x:Name="txtSearchBar" Margin="20 80" Background="White" materialDesign:HintAssist.Hint="Search for a product"/>
@@ -27,6 +28,7 @@
                 <Button Width="100" Height="40" Style="{StaticResource MaterialDesignRaisedButton}"
                            materialDesign:ButtonAssist.CornerRadius="10" BorderThickness="2"
                            Background="White" Foreground="black" x:Name="btnSearch" Content="Search"  />
+                
             </StackPanel>
         </StackPanel>
     </Grid>

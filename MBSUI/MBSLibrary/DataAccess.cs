@@ -12,7 +12,7 @@ namespace MBSLibrary
     {
         public List<Employee> GetEmployees(string EmployeeID)
         {
-            using (IDbConnection connection = new System.Data.SqlClient.SqlConnection(Helper.CnnVal("MBS-Database")))
+            using (IDbConnection connection = new System.Data.SqlClient.SqlConnection(Helper.CnnVal("MBSDatabase")))
             {
                 var output = connection.Query<Employee>($"select * from EmployeeAccounts where EmployeeID = '{EmployeeID}'").ToList();
                 return output;

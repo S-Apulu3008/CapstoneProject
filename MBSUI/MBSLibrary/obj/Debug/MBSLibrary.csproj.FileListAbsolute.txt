@@ -17,3 +17,23 @@ C:\Users\The King\Documents\GitHub\CapstoneProject\MBSUI\MBSLibrary\bin\Debug\Sy
 C:\Users\The King\Documents\GitHub\CapstoneProject\MBSUI\MBSLibrary\obj\Debug\MBSLibrary.csproj.CopyComplete
 C:\Users\The King\Documents\GitHub\CapstoneProject\MBSUI\MBSLibrary\obj\Debug\MBSLibrary.dll
 C:\Users\The King\Documents\GitHub\CapstoneProject\MBSUI\MBSLibrary\obj\Debug\MBSLibrary.pdb
+G:\GitHub\CapstoneProject\MBSUI\MBSLibrary\bin\Debug\MBSDatabase.mdf
+G:\GitHub\CapstoneProject\MBSUI\MBSLibrary\bin\Debug\MBSDatabase_log.ldf
+G:\GitHub\CapstoneProject\MBSUI\MBSLibrary\bin\Debug\MBSLibrary.dll.config
+G:\GitHub\CapstoneProject\MBSUI\MBSLibrary\bin\Debug\MBSLibrary.dll
+G:\GitHub\CapstoneProject\MBSUI\MBSLibrary\bin\Debug\MBSLibrary.pdb
+G:\GitHub\CapstoneProject\MBSUI\MBSLibrary\bin\Debug\Dapper.dll
+G:\GitHub\CapstoneProject\MBSUI\MBSLibrary\bin\Debug\System.Configuration.ConfigurationManager.dll
+G:\GitHub\CapstoneProject\MBSUI\MBSLibrary\bin\Debug\System.Security.AccessControl.dll
+G:\GitHub\CapstoneProject\MBSUI\MBSLibrary\bin\Debug\System.Security.Permissions.dll
+G:\GitHub\CapstoneProject\MBSUI\MBSLibrary\bin\Debug\System.Security.Principal.Windows.dll
+G:\GitHub\CapstoneProject\MBSUI\MBSLibrary\bin\Debug\Dapper.xml
+G:\GitHub\CapstoneProject\MBSUI\MBSLibrary\bin\Debug\System.Configuration.ConfigurationManager.xml
+G:\GitHub\CapstoneProject\MBSUI\MBSLibrary\bin\Debug\System.Security.AccessControl.xml
+G:\GitHub\CapstoneProject\MBSUI\MBSLibrary\bin\Debug\System.Security.Permissions.xml
+G:\GitHub\CapstoneProject\MBSUI\MBSLibrary\bin\Debug\System.Security.Principal.Windows.xml
+G:\GitHub\CapstoneProject\MBSUI\MBSLibrary\obj\Debug\MBSLibrary.csprojAssemblyReference.cache
+G:\GitHub\CapstoneProject\MBSUI\MBSLibrary\obj\Debug\MBSLibrary.csproj.CoreCompileInputs.cache
+G:\GitHub\CapstoneProject\MBSUI\MBSLibrary\obj\Debug\MBSLibrary.csproj.CopyComplete
+G:\GitHub\CapstoneProject\MBSUI\MBSLibrary\obj\Debug\MBSLibrary.dll
+G:\GitHub\CapstoneProject\MBSUI\MBSLibrary\obj\Debug\MBSLibrary.pdb

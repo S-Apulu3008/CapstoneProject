@@ -13,5 +13,6 @@ namespace MBSWPF
     /// </summary>
     public partial class App : Application
     {
+
     }
 }

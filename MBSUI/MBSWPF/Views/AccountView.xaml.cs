@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MBSLibrary;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,8 @@ namespace MBSWPF.Views
         public AccountView()
         {
             InitializeComponent();
+
+            txtbUserName.Text = ActiveAccount.activeEmployee.FirstName;
         }
     }
 }
