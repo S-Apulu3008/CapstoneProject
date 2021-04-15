@@ -9,5 +9,6 @@ namespace MBSWPF.ViewModels
 {
     public class RegisterViewModel : Screen
     {
+
     }
 }
