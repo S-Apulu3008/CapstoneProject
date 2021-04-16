@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MainWpfUI.Views;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,17 @@ namespace MainWpfUI
         public MainWindow()
         {
             InitializeComponent();
+            DataContext = new MainView();
+        }
+
+        private void MainBtnClicked(object sender, RoutedEventArgs e)
+        {
+            DataContext = new MainView();
+        }
+
+        private void TimeClockBtnClicked(object sender, RoutedEventArgs e)
+        {
+            DataContext = new TimeClockView();
         }
     }
 }
