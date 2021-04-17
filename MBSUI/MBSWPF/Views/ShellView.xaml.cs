@@ -12,6 +12,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using MBSLibrary;
 
 namespace MBSWPF.Views
 {
@@ -23,11 +24,25 @@ namespace MBSWPF.Views
         public ShellView()
         {
             InitializeComponent();
+
+            //For this we can either do a .Visibility or .IsEnabled depends on the look.
+            //Should possibly consult Norris on the look Maybe.
+            if (ActiveAccount.activeEmployee.IsManager == false)
+            {
+                LoadManagerView.Visibility = Visibility.Hidden;
+            }
+            else 
+            {
+                LoadManagerView.Visibility = Visibility.Visible; 
+            }
+
         }
 
         private void MenuItemExit_Click(object sender, RoutedEventArgs e)
         {
             Close();
         }
+
+
     }
 }

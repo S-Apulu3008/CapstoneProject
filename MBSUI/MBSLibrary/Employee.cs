@@ -14,6 +14,7 @@ namespace MBSLibrary
         private string _firstName;
         private string _lastName;
         private string _password;
+        private bool _isManager;
 
         public string EmployeeID
         {
@@ -66,6 +67,19 @@ namespace MBSLibrary
                 NotifyPropertyChanged(Password);
             }
         }
+
+        public bool IsManager
+        {
+            get 
+            { 
+                return _isManager; 
+            }
+            set 
+            { 
+                _isManager = value; 
+            }
+        }
+
 
 
         public event PropertyChangedEventHandler PropertyChanged;

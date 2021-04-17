@@ -13,7 +13,7 @@
             </MenuItem>
             <MenuItem Header="_Home" x:Name="LoadHomeView"/>
             <MenuItem Header="_Information">
-                <MenuItem Header="_Login" x:Name="LoadLoginView"/>
+                <MenuItem Header="_Login" Name="LoadLoginView"/>
                 <MenuItem Header="_Management" Name="LoadManagerView"/>
                 <MenuItem Header="_Account" Name="LoadAccountView"/>
             </MenuItem>
