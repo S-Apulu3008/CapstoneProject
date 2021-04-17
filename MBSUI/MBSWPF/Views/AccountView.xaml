@@ -11,6 +11,7 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
             <ColumnDefinition/>
+            <ColumnDefinition/>
         </Grid.ColumnDefinitions>
 
         <Grid.RowDefinitions>
@@ -18,7 +19,7 @@
             <RowDefinition/>
         </Grid.RowDefinitions>
 
-        <Border CornerRadius="16" Grid.ColumnSpan="2" Grid.RowSpan="2">
+        <Border CornerRadius="16" Grid.ColumnSpan="3" Grid.RowSpan="2">
             <Border.Background>
                 <LinearGradientBrush>
                     <GradientStop Color="DeepSkyBlue" Offset="0.0"/>
@@ -42,7 +43,36 @@
                     Content="Clock Out" x:Name="btnClockOut"/>
         </StackPanel>
 
-        <TextBlock Grid.Row="0" Grid.Column="1" x:Name="txtbUserName"/>
+        <Label Grid.Row="0" Grid.Column="1" Content="Time" x:Name="lblTime" VerticalContentAlignment="Center" 
+               HorizontalAlignment="Center" FontSize="25"/>
+        <Label Grid.Row="0" Grid.Column="2" Content="Date" x:Name="lblDate" VerticalContentAlignment="Center"
+               HorizontalAlignment="Center" FontSize="25"/>
+
+        <StackPanel Grid.Row="1" Grid.Column="1">
+            <StackPanel.Resources>
+                <Style TargetType="{x:Type TextBox}">
+                    <Setter Property="Margin" Value="0,35,0,0"/>
+                </Style>
+            </StackPanel.Resources>
+            <TextBox Text="Employee ID:" HorizontalAlignment="Center" FontSize="20" BorderThickness="5" BorderBrush="Black"/>
+            <TextBox Text="First Name:" HorizontalAlignment="Center" FontSize="20" BorderThickness="5" BorderBrush="Black"/>
+            <TextBox Text="Last Name:" HorizontalAlignment="Center" FontSize="20" BorderThickness="5" BorderBrush="Black"/>
+            <TextBox Text="Hire Date:" HorizontalAlignment="Center" FontSize="20" BorderThickness="5" BorderBrush="Black"/>
+        </StackPanel>
+        
+        
+        <!-- Creating a StackPanel to hold the employee's information for later. -->
+        <StackPanel Grid.Row="1" Grid.Column="2">
+            <StackPanel.Resources>
+                <Style TargetType="{x:Type TextBlock}">
+                    <Setter Property="Margin" Value="0,35,0,0"/>
+                </Style>
+            </StackPanel.Resources>
+            <TextBlock x:Name="txtEmployeeID" FontSize="20"/>
+            <TextBlock x:Name="txtFirstName" FontSize="20"/>
+            <TextBlock x:Name="txtLastName" FontSize="20"/>
+            <TextBlock x:Name="txtHireDate" FontSize="20"/>
+        </StackPanel>
 
 
     </Grid>

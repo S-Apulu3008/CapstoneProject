@@ -13,6 +13,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Windows.Threading;
 
 namespace MBSWPF.Views
 {
@@ -25,7 +26,20 @@ namespace MBSWPF.Views
         {
             InitializeComponent();
 
-            txtbUserName.Text = ActiveAccount.activeEmployee.FirstName;
+            //txtUserName.Text = ActiveAccount.activeEmployee.FirstName;
+
+            Loaded += AccountView_Loaded;
+
+            DispatcherTimer timer = new DispatcherTimer(new TimeSpan(0, 0, 1),
+               DispatcherPriority.Normal, delegate
+               {
+                   lblTime.Content = DateTime.Now.ToString("hh:mm:ss");
+               }, this.Dispatcher);
+        }
+
+        private void AccountView_Loaded(object sender, RoutedEventArgs e)
+        {
+            lblDate.Content = DateTime.Now.ToShortDateString();
         }
     }
 }

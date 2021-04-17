@@ -24,5 +24,10 @@ namespace MBSWPF.Views
         {
             InitializeComponent();
         }
+
+        private void MenuItemExit_Click(object sender, RoutedEventArgs e)
+        {
+            Close();
+        }
     }
 }

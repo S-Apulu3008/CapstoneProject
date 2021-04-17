@@ -9,12 +9,13 @@
     <DockPanel>
         <Menu DockPanel.Dock="Top">
             <MenuItem Header="_File">
-                <MenuItem Header="_Exit"/>
+                <MenuItem Header="_Exit" Click="MenuItemExit_Click"/>
             </MenuItem>
             <MenuItem Header="_Home" x:Name="LoadHomeView"/>
-            <MenuItem Header="_Account">
+            <MenuItem Header="_Information">
                 <MenuItem Header="_Login" x:Name="LoadLoginView"/>
                 <MenuItem Header="_Management" Name="LoadManagerView"/>
+                <MenuItem Header="_Account" Name="LoadAccountView"/>
             </MenuItem>
                 <MenuItem Header="_Inventory"/>
         </Menu>
