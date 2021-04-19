@@ -24,6 +24,7 @@ namespace MBSWPF.Views
     public partial class RegisterView : UserControl
     {
         SqlConnection con = new SqlConnection(Helper.CnnVal("MBSDatabase"));
+        DataAccess db = new DataAccess();
         public RegisterView()
         {
             InitializeComponent();
@@ -32,17 +33,14 @@ namespace MBSWPF.Views
         //Opening a connection to the local database. Then creating a command to add all the information from the manager into the employee table. 
         private void btnSubmit_Click(object sender, RoutedEventArgs e)
         {
-            con.Open();
-            SqlCommand cmd = con.CreateCommand();
-            cmd.CommandType = CommandType.Text;
-            cmd.CommandText = "insert into [EmployeeAccounts] (EmployeeID, FirstName, LastName, Password) values " +
-                "('" + txtEmployeeID.Text + "','" + txtFirstName.Text + "','" + txtLastName.Text + "','" + txtPassword.Text + "')";
-            cmd.ExecuteNonQuery();
-            con.Close();
-            txtEmployeeID.Text = "";
-            txtFirstName.Text = "";
-            txtLastName.Text = "";
-            txtPassword.Text = "";
+            Employee newEmployee = new Employee();
+            newEmployee.EmployeeID = txtEmployeeID.Text;
+            newEmployee.FirstName = txtFirstName.Text;
+            newEmployee.LastName = txtLastName.Text;
+            newEmployee.Password = txtPassword.Text;
+
+            db.AddEmployee(newEmployee);
+
             MessageBox.Show("Employee has been added.");
         }
 
