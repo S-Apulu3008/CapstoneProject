@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -25,7 +26,7 @@ namespace MBSLibrary
             set 
             { 
                 _employeeID = value;
-                NotifyPropertyChanged(EmployeeID);
+                OnPropertyChanged();
             }
         }
 
@@ -38,7 +39,7 @@ namespace MBSLibrary
             set 
             {
                 _firstName = value;
-                NotifyPropertyChanged(FirstName);
+                OnPropertyChanged(); ;
             }
         }
 
@@ -51,7 +52,7 @@ namespace MBSLibrary
             set 
             {
                 _lastName = value;
-                NotifyPropertyChanged(LastName);
+                OnPropertyChanged(); ;
             }
         }
 
@@ -64,7 +65,7 @@ namespace MBSLibrary
             set 
             {
                 _password = value;
-                NotifyPropertyChanged(Password);
+                OnPropertyChanged();
             }
         }
 
@@ -77,6 +78,7 @@ namespace MBSLibrary
             set 
             { 
                 _isManager = value; 
+                OnPropertyChanged();
             }
         }
 
@@ -84,11 +86,13 @@ namespace MBSLibrary
 
         public event PropertyChangedEventHandler PropertyChanged;
 
-        protected void NotifyPropertyChanged(string info) 
+        protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null) 
         {
-            if (PropertyChanged != null) 
+            PropertyChangedEventHandler handler = PropertyChanged;
+
+            if (handler != null) 
             {
-                PropertyChanged(this, new PropertyChangedEventArgs(info));
+                handler(this, new PropertyChangedEventArgs(propertyName));
             }
         }
     }

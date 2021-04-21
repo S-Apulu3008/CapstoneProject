@@ -129,3 +129,5 @@ C:\Users\The King\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\bin\Debug\MBSLib
 C:\Users\The King\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\bin\Debug\MBSLibrary.dll.config
 G:\GitHub\CapstoneProject\MBSUI\MBSWPF\bin\Debug\Microsoft.AspNet.Identity.Core.dll
 G:\GitHub\CapstoneProject\MBSUI\MBSWPF\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\The King\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\The King\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\bin\Debug\Microsoft.AspNet.Identity.Core.xml
