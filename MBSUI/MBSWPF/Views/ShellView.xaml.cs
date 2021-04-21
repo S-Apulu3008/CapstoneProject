@@ -27,14 +27,15 @@ namespace MBSWPF.Views
 
             //For this we can either do a .Visibility or .IsEnabled depends on the look.
             //Should possibly consult Norris on the look Maybe.
-            if (ActiveAccount.activeEmployee.IsManager == false)
-            {
-                LoadManagerView.Visibility = Visibility.Hidden;
-            }
-            else 
-            {
-                LoadManagerView.Visibility = Visibility.Visible; 
-            }
+            //if (ActiveAccount.activeEmployee.IsManager == true)
+            //{
+            //    LoadManagerView.Visibility = Visibility.Visible;
+                
+            //}
+            //else 
+            //{
+            //    LoadManagerView.Visibility = Visibility.Hidden;
+            //}
 
         }
 

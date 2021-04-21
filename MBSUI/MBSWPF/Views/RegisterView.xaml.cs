@@ -15,6 +15,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using MBSLibrary;
+using Microsoft.AspNet.Identity;
 
 namespace MBSWPF.Views
 {
@@ -24,6 +25,7 @@ namespace MBSWPF.Views
     public partial class RegisterView : UserControl
     {
         SqlConnection con = new SqlConnection(Helper.CnnVal("MBSDatabase"));
+        IPasswordHasher hasher = new PasswordHasher();
         DataAccess db = new DataAccess();
         public RegisterView()
         {

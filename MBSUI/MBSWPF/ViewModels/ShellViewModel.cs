@@ -1,4 +1,5 @@
 ﻿using Caliburn.Micro;
+using MBSLibrary;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,12 +13,14 @@ namespace MBSWPF.ViewModels
     {
         private HomeViewModel _homeVM;
         
+        
         //Load login when shell view starts
         //Getting a login viewmodel and storing it in a private variable
         public ShellViewModel(HomeViewModel homeVM)
         {
             //Constructor injection to pass in an instance then activate to use later.
-            _homeVM = homeVM;
+            _homeVM = homeVM;            
+            
             //Load the login form on the shell viem model
             ActivateItem(_homeVM);
         }

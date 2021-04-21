@@ -10,11 +10,11 @@ namespace MBSLibrary
 {
     public class DataAccess
     {
-        public List<Employee> GetEmployees(string EmployeeID)
+        public List<Employee> GetEmployees(string employeeID)
         {
             using (IDbConnection connection = new System.Data.SqlClient.SqlConnection(Helper.CnnVal("MBSDatabase")))
             {
-                var output = connection.Query<Employee>($"select * from EmployeeAccounts where EmployeeID = '{EmployeeID}'").ToList();
+                var output = connection.Query<Employee>($"dbo.GetEmployee @EmployeeID", new { EmployeeID = employeeID }).ToList();
                 return output;
             }
         }
