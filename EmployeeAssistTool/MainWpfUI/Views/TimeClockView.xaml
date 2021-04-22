@@ -5,7 +5,7 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:MainWpfUI.Views"
              mc:Ignorable="d" 
-             d:DesignHeight="450" d:DesignWidth="800" Background="Firebrick">
+             d:DesignHeight="450" d:DesignWidth="800" FontSize="24" Background="#FF5A7A7A">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="20"/>
@@ -27,6 +27,8 @@
             <RowDefinition Height="*"/>            
             <RowDefinition Height="20"/>
         </Grid.RowDefinitions>
-            
+        <TextBlock Text="Clock In/Out" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="3" FontSize="24" Margin="10" HorizontalAlignment="Center"/>
+        <TextBox x:Name="empIdTextBox" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="3" Text="Employee ID" AutomationProperties.HelpText="Enter Employee ID" GotFocus="empIdTextBox_GotFocus" Margin="10" MinWidth="250" />
+        <TextBox x:Name="empPwTextBox" Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="3" Text="Employee Password" AutomationProperties.HelpText="Enter Employee Password" GotFocus="empPwTextBox_GotFocus" Margin="10" MinWidth="250" />
     </Grid>
 </UserControl>

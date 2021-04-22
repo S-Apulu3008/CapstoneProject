@@ -24,5 +24,15 @@ namespace MainWpfUI.Views
         {
             InitializeComponent();
         }
+
+        private void empIdTextBox_GotFocus(object sender, RoutedEventArgs e)
+        {
+            empIdTextBox.Text = "";
+        }
+
+        private void empPwTextBox_GotFocus(object sender, RoutedEventArgs e)
+        {
+            empPwTextBox.Text = "";
+        }
     }
 }
