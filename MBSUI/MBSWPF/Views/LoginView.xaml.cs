@@ -31,11 +31,16 @@ namespace MBSWPF.Views
         {
             string employeeId = txtUsername.Text;
             string password = txtPassword.Password;
-
-            Employee thisEmployee = authenticator.Login(employeeId, password);
-
-
-            ActiveAccount.activeEmployee = thisEmployee;
+            try
+            {
+                Employee thisEmployee = authenticator.Login(employeeId, password);
+                ActiveAccount.activeEmployee = thisEmployee;
+                MessageBox.Show($"Welcome, {thisEmployee.FirstName}");
+            }
+            catch
+            {
+                MessageBox.Show("Login Unsuccessful.");
+            }
         }
     }
 }

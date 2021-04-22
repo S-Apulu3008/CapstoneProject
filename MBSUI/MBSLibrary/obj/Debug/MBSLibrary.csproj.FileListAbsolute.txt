@@ -38,3 +38,23 @@ G:\GitHub\CapstoneProject\MBSUI\MBSLibrary\obj\Debug\MBSLibrary.csproj.CopyCompl
 G:\GitHub\CapstoneProject\MBSUI\MBSLibrary\obj\Debug\MBSLibrary.dll
 G:\GitHub\CapstoneProject\MBSUI\MBSLibrary\obj\Debug\MBSLibrary.pdb
 C:\Users\The King\Documents\GitHub\CapstoneProject\MBSUI\MBSLibrary\bin\Debug\MBSLibrary.dll.config
+C:\Users\Sene\Documents\GitHub\CapstoneProject\MBSUI\MBSLibrary\bin\Debug\MBSDatabase.mdf
+C:\Users\Sene\Documents\GitHub\CapstoneProject\MBSUI\MBSLibrary\bin\Debug\MBSDatabase_log.ldf
+C:\Users\Sene\Documents\GitHub\CapstoneProject\MBSUI\MBSLibrary\bin\Debug\MBSLibrary.dll.config
+C:\Users\Sene\Documents\GitHub\CapstoneProject\MBSUI\MBSLibrary\bin\Debug\MBSLibrary.dll
+C:\Users\Sene\Documents\GitHub\CapstoneProject\MBSUI\MBSLibrary\bin\Debug\MBSLibrary.pdb
+C:\Users\Sene\Documents\GitHub\CapstoneProject\MBSUI\MBSLibrary\bin\Debug\Dapper.dll
+C:\Users\Sene\Documents\GitHub\CapstoneProject\MBSUI\MBSLibrary\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\Sene\Documents\GitHub\CapstoneProject\MBSUI\MBSLibrary\bin\Debug\System.Security.AccessControl.dll
+C:\Users\Sene\Documents\GitHub\CapstoneProject\MBSUI\MBSLibrary\bin\Debug\System.Security.Permissions.dll
+C:\Users\Sene\Documents\GitHub\CapstoneProject\MBSUI\MBSLibrary\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\Sene\Documents\GitHub\CapstoneProject\MBSUI\MBSLibrary\bin\Debug\Dapper.xml
+C:\Users\Sene\Documents\GitHub\CapstoneProject\MBSUI\MBSLibrary\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\Sene\Documents\GitHub\CapstoneProject\MBSUI\MBSLibrary\bin\Debug\System.Security.AccessControl.xml
+C:\Users\Sene\Documents\GitHub\CapstoneProject\MBSUI\MBSLibrary\bin\Debug\System.Security.Permissions.xml
+C:\Users\Sene\Documents\GitHub\CapstoneProject\MBSUI\MBSLibrary\bin\Debug\System.Security.Principal.Windows.xml
+C:\Users\Sene\Documents\GitHub\CapstoneProject\MBSUI\MBSLibrary\obj\Debug\MBSLibrary.csprojAssemblyReference.cache
+C:\Users\Sene\Documents\GitHub\CapstoneProject\MBSUI\MBSLibrary\obj\Debug\MBSLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Sene\Documents\GitHub\CapstoneProject\MBSUI\MBSLibrary\obj\Debug\MBSLibrary.csproj.CopyComplete
+C:\Users\Sene\Documents\GitHub\CapstoneProject\MBSUI\MBSLibrary\obj\Debug\MBSLibrary.dll
+C:\Users\Sene\Documents\GitHub\CapstoneProject\MBSUI\MBSLibrary\obj\Debug\MBSLibrary.pdb
