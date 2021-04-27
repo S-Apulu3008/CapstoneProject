@@ -15,6 +15,9 @@
         <DataTemplate x:Name="TimeClockViewTemplate" DataType="{x:Type viewmodels:TimeClockViewModel}">
             <views:TimeClockView DataContext="{Binding}"/>
         </DataTemplate>
+        <DataTemplate x:Name="SearchResultsTemplate" DataType="{x:Type viewmodels:SearchResultsViewModel}">
+            <views:SearchResultsView DataContext="{Binding}"/>
+        </DataTemplate>
     </Window.Resources>
     <Grid>
         <Grid.ColumnDefinitions>
@@ -35,7 +38,7 @@
         </Grid.RowDefinitions>
         <Button x:Name="MainViewBtn" Content="Main" Grid.Column="1" Grid.Row="1" Margin="10" MinWidth="75" Click="MainBtnClicked"/>
         <Button Content="Clock In/Out" Grid.Column="2" Grid.Row="1" Margin="10" MinWidth="120" Click="TimeClockBtnClicked"/>
-        
+
         <ContentControl Content="{Binding}" Grid.Column="1" Grid.Row="2" Grid.RowSpan="3" Grid.ColumnSpan="4" Background="Gray"/>
 
     </Grid>

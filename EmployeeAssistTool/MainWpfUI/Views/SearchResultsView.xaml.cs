@@ -16,18 +16,13 @@ using System.Windows.Shapes;
 namespace MainWpfUI.Views
 {
     /// <summary>
-    /// Interaction logic for MainView.xaml
+    /// Interaction logic for SearchResultsView.xaml
     /// </summary>
-    public partial class MainView : UserControl
+    public partial class SearchResultsView : UserControl
     {
-        public MainView()
+        public SearchResultsView()
         {
             InitializeComponent();
-        }
-
-        private void SearchBtnClicked(object sender, RoutedEventArgs e)
-        {
-            Application.Current.MainWindow.DataContext = new SearchResultsView();
         }
     }
 }

@@ -18,3 +18,7 @@ C:\Users\Sene\Documents\GitHub\CapstoneProject\EmployeeAssistTool\MainWpfUI\obj\
 C:\Users\Sene\Documents\GitHub\CapstoneProject\EmployeeAssistTool\MainWpfUI\obj\Debug\Views\MainView.baml
 C:\Users\Sene\Documents\GitHub\CapstoneProject\EmployeeAssistTool\MainWpfUI\obj\Debug\Views\TimeClockView.g.cs
 C:\Users\Sene\Documents\GitHub\CapstoneProject\EmployeeAssistTool\MainWpfUI\obj\Debug\Views\TimeClockView.baml
+C:\Users\Sene\Documents\GitHub\CapstoneProject\EmployeeAssistTool\MainWpfUI\obj\Debug\ViewModels\SearchResultsViewModel.g.cs
+C:\Users\Sene\Documents\GitHub\CapstoneProject\EmployeeAssistTool\MainWpfUI\obj\Debug\Views\SearchResultsView.g.cs
+C:\Users\Sene\Documents\GitHub\CapstoneProject\EmployeeAssistTool\MainWpfUI\obj\Debug\ViewModels\SearchResultsViewModel.baml
+C:\Users\Sene\Documents\GitHub\CapstoneProject\EmployeeAssistTool\MainWpfUI\obj\Debug\Views\SearchResultsView.baml

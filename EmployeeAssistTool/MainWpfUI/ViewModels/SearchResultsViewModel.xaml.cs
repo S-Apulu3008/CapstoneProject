@@ -13,21 +13,16 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace MainWpfUI.Views
+namespace MainWpfUI.ViewModels
 {
     /// <summary>
-    /// Interaction logic for MainView.xaml
+    /// Interaction logic for SearchResultsViewModel.xaml
     /// </summary>
-    public partial class MainView : UserControl
+    public partial class SearchResultsViewModel : UserControl
     {
-        public MainView()
+        public SearchResultsViewModel()
         {
             InitializeComponent();
-        }
-
-        private void SearchBtnClicked(object sender, RoutedEventArgs e)
-        {
-            Application.Current.MainWindow.DataContext = new SearchResultsView();
         }
     }
 }

@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\Sene\Documents\GitHub\CapstoneProject\EmployeeAssistTool\MainWpfUI\App.xaml
-3919059675
+51883015404
 
-101631206417
+12746590011
 13-1505183044
-MainWindow.xaml;Views\MainView.xaml;Views\TimeClockView.xaml;
+MainWindow.xaml;ViewModels\SearchResultsViewModel.xaml;Views\MainView.xaml;Views\SearchResultsView.xaml;Views\TimeClockView.xaml;
 
 True
 
