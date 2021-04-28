@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MBSLibrary
 {
-    public class ActiveAccount
+    public class ActiveAccount 
     {
         public static Employee activeEmployee = new Employee();
     }

@@ -26,7 +26,7 @@ namespace MBSLibrary
             set 
             { 
                 _employeeID = value;
-                OnPropertyChanged();
+                OnPropertyChanged("EmployeeID");
             }
         }
 
@@ -39,7 +39,7 @@ namespace MBSLibrary
             set 
             {
                 _firstName = value;
-                OnPropertyChanged(); ;
+                OnPropertyChanged("FirstName"); ;
             }
         }
 
@@ -52,7 +52,7 @@ namespace MBSLibrary
             set 
             {
                 _lastName = value;
-                OnPropertyChanged(); ;
+                OnPropertyChanged("LastName"); ;
             }
         }
 
@@ -65,7 +65,7 @@ namespace MBSLibrary
             set 
             {
                 _password = value;
-                OnPropertyChanged();
+                OnPropertyChanged("Password");
             }
         }
 
@@ -78,7 +78,7 @@ namespace MBSLibrary
             set 
             { 
                 _isManager = value; 
-                OnPropertyChanged();
+                OnPropertyChanged("IsManager");
             }
         }
 

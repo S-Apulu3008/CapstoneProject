@@ -15,7 +15,6 @@ namespace MBSLibrary
             using (IDbConnection connection = new System.Data.SqlClient.SqlConnection(Helper.CnnVal("MBSDatabase")))
             {
                 var output = connection.Query<Employee>($"dbo.GetEmployee @EmployeeID", new { EmployeeID = employeeID }).ToList();
-                Console.WriteLine(output);
                 return output;
             }
         }

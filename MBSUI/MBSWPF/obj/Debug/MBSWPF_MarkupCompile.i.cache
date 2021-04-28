@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-G:\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\
+C:\Users\Sene\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\
 MBSWPF
 none
 false
 DEBUG;TRACE
-G:\GitHub\CapstoneProject\MBSUI\MBSWPF\App.xaml
+C:\Users\Sene\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\App.xaml
 6-58082347
 
 18233897996
-126-419208500
+126-1309712236
 Views\AccountView.xaml;Views\HomeView.xaml;Views\LoginView.xaml;Views\ManagerView.xaml;Views\RegisterView.xaml;Views\ShellView.xaml;
 
 True

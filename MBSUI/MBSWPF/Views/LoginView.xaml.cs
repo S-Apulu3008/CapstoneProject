@@ -33,9 +33,16 @@ namespace MBSWPF.Views
             string password = txtPassword.Password;
             try
             {
+                ShellView main = ShellView.mainShellView; //main will refer to the mainWindow
                 Employee thisEmployee = authenticator.Login(employeeId, password);
                 ActiveAccount.activeEmployee = thisEmployee;
                 MessageBox.Show($"Welcome, {thisEmployee.FirstName}");
+                txtUsername.Text = txtPassword.Password = ""; //Clear textboxes.
+                if (ActiveAccount.activeEmployee.IsManager)
+                {
+                    main.ShowOptions();
+                    main.Title = $"Logged in as: {ActiveAccount.activeEmployee.FirstName}";
+                }
             }
             catch
             {

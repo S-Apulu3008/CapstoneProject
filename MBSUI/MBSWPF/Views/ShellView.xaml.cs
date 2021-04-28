@@ -21,9 +21,12 @@ namespace MBSWPF.Views
     /// </summary>
     public partial class ShellView : Window
     {
+        public static ShellView mainShellView;
         public ShellView()
         {
             InitializeComponent();
+            mainShellView = this; //mainShellView will refer to this window.
+            ManagementOptions.Visibility = Visibility.Hidden; //Hide Manager Options.
 
             //For this we can either do a .Visibility or .IsEnabled depends on the look.
             //Should possibly consult Norris on the look Maybe.
@@ -44,6 +47,14 @@ namespace MBSWPF.Views
             Close();
         }
 
+        private void LoadHomeView_Click(object sender, RoutedEventArgs e)
+        {
 
+        }
+
+        public void ShowOptions()
+        {
+            ManagementOptions.Visibility = Visibility.Visible;
+        }
     }
 }

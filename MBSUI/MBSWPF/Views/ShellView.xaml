@@ -6,22 +6,22 @@
         xmlns:local="clr-namespace:MBSWPF.Views"
         
         mc:Ignorable="d"
-        Title="ShellView" Height="450" Width="800">
+        Title="ShellView" Height="450" Width="800" WindowStartupLocation="CenterScreen" FontSize="18">
     <DockPanel>
-        <Menu DockPanel.Dock="Top">
+        <Menu x:Name="MainDockPanel" DockPanel.Dock="Top">
             <MenuItem Header="_File">
                 <MenuItem Header="_Exit" Click="MenuItemExit_Click"/>
             </MenuItem>
-            <MenuItem Header="_Home" x:Name="LoadHomeView"/>
+            <MenuItem Header="_Home" Name="LoadHomeView"/>
             <MenuItem Header="_Information">
                 <MenuItem Header="_Login" Name="LoadLoginView"/>                
                 <MenuItem Header="_Account" Name="LoadAccountView"/>
             </MenuItem>
-            <MenuItem Header="_Management">
+            <MenuItem x:FieldModifier="public" Header="_Management" Name="ManagementOptions">
                 <MenuItem.Style>
                     <Style TargetType="MenuItem">
                         <Style.Triggers>
-                            <DataTrigger Binding="{Binding ActiveAccount.activeAccount.IsManager}" Value="false">
+                            <DataTrigger Binding="{Binding activeEmployee.IsManager}" Value="false">
                                 <Setter Property="Visibility" Value="Collapsed"/>
                             </DataTrigger>
                         </Style.Triggers>
@@ -35,8 +35,10 @@
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
-            
-            <ContentControl Grid.Column="0" x:Name="ActiveItem" />
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <ContentControl Grid.Column="0" Grid.Row="0" x:Name="ActiveItem"/>
         </Grid>
     </DockPanel>
 </Window>
