@@ -19,7 +19,8 @@
             </MenuItem>
             <MenuItem x:FieldModifier="public" Header="_Management" Name="ManagementOptions">
                 <MenuItem.Style>
-                    <Style TargetType="MenuItem">
+                    <Style TargetType="MenuItem" >
+                        <Setter Property="Background" Value="Transparent"/>
                         <Style.Triggers>
                             <DataTrigger Binding="{Binding activeEmployee.IsManager}" Value="false">
                                 <Setter Property="Visibility" Value="Collapsed"/>
@@ -27,8 +28,8 @@
                         </Style.Triggers>
                     </Style>
                 </MenuItem.Style>
-                <MenuItem Header="_Add Employee" Name="LoadRegisterView"/>
-                <MenuItem Header="_Inventory Check"/>
+                <MenuItem  Header="_Add Employee" Name="LoadRegisterView"/>
+                <MenuItem  Header="_Inventory Check"/>
             </MenuItem>
         </Menu>
         <Grid>
