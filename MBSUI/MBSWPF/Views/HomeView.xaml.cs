@@ -21,9 +21,48 @@ namespace MBSWPF.Views
     /// </summary>
     public partial class HomeView : UserControl
     {
+        DataAccess db = new DataAccess();
         public HomeView()
         {
             InitializeComponent();            
+        }
+
+        private void btnSearch_Click(object sender, RoutedEventArgs e)
+        {
+            string searchContent = txtSearchBar.Text;
+            
+            int sku = 0;
+            bool canConvert = int.TryParse(searchContent, out sku);
+            
+            List<Product> searchResults;
+
+            if(canConvert==true)
+            {
+                
+                searchResults = db.GetProductBySKU(sku);
+                
+            }
+            else
+            {
+                
+                searchResults = db.GetProductByName(searchContent);
+                
+
+                if (searchResults.Count == 0)
+                {
+                    searchResults = db.GetProductByGenre(searchContent);
+
+                    
+                    
+                    if (searchResults.Count == 0)
+                    {
+                        MessageBox.Show("Nothing to return");
+                    }
+                }
+                
+                
+            }
+
         }
     }
 }
