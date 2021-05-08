@@ -35,18 +35,10 @@ namespace MBSWPF.Views
         //Opening a connection to the local database. Then creating a command to add all the information from the manager into the employee table. 
         private void btnSubmit_Click(object sender, RoutedEventArgs e)
         {
-            
-            string hashedPassword = hasher.HashPassword(txtPassword.Text);
-            Employee newEmployee = new Employee()
-            {
-                EmployeeID = txtEmployeeID.Text,
-                FirstName = txtFirstName.Text,
-                LastName = txtLastName.Text,
-                Password = hashedPassword,
-                IsManager = false
-            };
 
-            db.AddEmployee(newEmployee);
+            Authenticator authenticator = new Authenticator();
+
+            authenticator.Register(txtEmployeeID.Text, txtPassword.Text, txtFirstName.Text, txtLastName.Text, false);
 
             MessageBox.Show("Employee has been added.");
         }
