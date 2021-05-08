@@ -180,3 +180,7 @@ C:\Users\Sene\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\MBSWPF.csp
 C:\Users\Sene\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\MBSWPF.csproj.CopyComplete
 C:\Users\Sene\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\MBSWPF.exe
 C:\Users\Sene\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\MBSWPF.pdb
+C:\Users\The King\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\Views\ResultsView.g.cs
+C:\Users\The King\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\Views\ResultsView.baml
+C:\Users\The King\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\Views\ReportView.g.cs
+C:\Users\The King\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\Views\ReportView.baml

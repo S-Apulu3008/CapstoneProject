@@ -13,5 +13,10 @@ namespace MBSWPF.ViewModels
         {
             ActivateItem(new RegisterViewModel());
         }
+
+        public void LoadReportView() 
+        {
+            ActivateItem(new ReportViewModel());
+        }
     }
 }

@@ -28,8 +28,7 @@
                         </Style.Triggers>
                     </Style>
                 </MenuItem.Style>
-                <MenuItem  Header="_Add Employee" Name="LoadRegisterView"/>
-                <MenuItem  Header="_Inventory Check"/>
+                <MenuItem  Header="_Manager Tools" Name="LoadManagerView"/>
             </MenuItem>
         </Menu>
         <Grid>

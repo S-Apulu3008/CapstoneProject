@@ -31,5 +31,6 @@
                 
             </StackPanel>
         </StackPanel>
+        <ContentControl x:Name="ActiveItem"/>
     </Grid>
 </UserControl>

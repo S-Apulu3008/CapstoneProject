@@ -34,27 +34,26 @@ namespace MBSWPF.Views
             int sku = 0;
             bool canConvert = int.TryParse(searchContent, out sku);
             
-            List<Product> searchResults;
 
             if(canConvert==true)
             {
                 
-                searchResults = db.GetProductBySKU(sku);
-                
+                ActiveAccount.searchResults = db.GetProductBySKU(sku);
             }
             else
             {
                 
-                searchResults = db.GetProductByName(searchContent);
+                ActiveAccount.searchResults = db.GetProductByName(searchContent);
                 
 
-                if (searchResults.Count == 0)
+                if (ActiveAccount.searchResults.Count == 0)
                 {
-                    searchResults = db.GetProductByGenre(searchContent);
+                    
+                    ActiveAccount.searchResults = db.GetProductByGenre(searchContent);
 
                     
                     
-                    if (searchResults.Count == 0)
+                    if (ActiveAccount.searchResults.Count == 0)
                     {
                         MessageBox.Show("Nothing to return");
                     }

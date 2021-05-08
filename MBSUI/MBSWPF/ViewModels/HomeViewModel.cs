@@ -7,8 +7,11 @@ using System.Threading.Tasks;
 
 namespace MBSWPF.ViewModels
 {
-    public class HomeViewModel : Screen
+    public class HomeViewModel : Conductor<object>
     {
-
+        public void btnSearch() 
+        {
+            ActivateItem(new ResultsViewModel());
+        }
     }
 }
