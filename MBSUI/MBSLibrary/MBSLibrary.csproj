@@ -102,10 +102,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="MBSDatabase.mdf">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="MBSDatabase_log.ldf">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>MBSDatabase.mdf</DependentUpon>
     </Content>
   </ItemGroup>

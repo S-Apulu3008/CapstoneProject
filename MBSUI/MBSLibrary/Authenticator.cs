@@ -23,24 +23,5 @@ namespace MBSLibrary
             }
             return employees[0];
         }
-
-        public bool Register(string employeeId, string password, string firstName, string lastName, bool isManager)
-        {
-            bool success = true;
-
-            string hashedPassword = hasher.HashPassword(password);
-            Employee newEmployee = new Employee()
-            {
-                EmployeeID = employeeId,
-                FirstName = firstName,
-                LastName = lastName,
-                Password = hashedPassword,
-                IsManager = isManager
-            };
-
-            db.AddEmployee(newEmployee);
-
-            return success;
-        }
     }
 }

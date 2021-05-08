@@ -28,19 +28,12 @@ namespace MBSWPF.Views
             mainShellView = this; //mainShellView will refer to this window.
             ManagementOptions.Visibility = Visibility.Hidden; //Hide Manager Options.
 
-            Authenticator authenticator = new Authenticator();
-
-            //authenticator.Register("A0001", "bdalton21", "Brandon", "Dalton", false);
-            //authenticator.Register("A0002", "smccartney21", "Silvia", "McCartney", true);
-            //authenticator.Register("A0003", "sapulu21", "Sene", "Apulu", true);
-            //authenticator.Register("A0004", "wmerritt21", "William", "Merritt", false);
-
             //For this we can either do a .Visibility or .IsEnabled depends on the look.
             //Should possibly consult Norris on the look Maybe.
             //if (ActiveAccount.activeEmployee.IsManager == true)
             //{
             //    LoadManagerView.Visibility = Visibility.Visible;
-
+                
             //}
             //else 
             //{

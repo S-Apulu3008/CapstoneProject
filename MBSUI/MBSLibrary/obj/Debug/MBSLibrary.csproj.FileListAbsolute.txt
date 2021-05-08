@@ -58,5 +58,3 @@ C:\Users\Sene\Documents\GitHub\CapstoneProject\MBSUI\MBSLibrary\obj\Debug\MBSLib
 C:\Users\Sene\Documents\GitHub\CapstoneProject\MBSUI\MBSLibrary\obj\Debug\MBSLibrary.csproj.CopyComplete
 C:\Users\Sene\Documents\GitHub\CapstoneProject\MBSUI\MBSLibrary\obj\Debug\MBSLibrary.dll
 C:\Users\Sene\Documents\GitHub\CapstoneProject\MBSUI\MBSLibrary\obj\Debug\MBSLibrary.pdb
-G:\GitHub\CapstoneProject\MBSUI\MBSLibrary\bin\Debug\Microsoft.AspNet.Identity.Core.dll
-G:\GitHub\CapstoneProject\MBSUI\MBSLibrary\bin\Debug\Microsoft.AspNet.Identity.Core.xml
