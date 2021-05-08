@@ -13,5 +13,6 @@ namespace MBSLibrary
         public static List<Product> searchResults = new List<Product>();
 
         public static List<Product> reportResults = new List<Product>();
+
     }
 }

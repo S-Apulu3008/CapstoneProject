@@ -29,8 +29,9 @@ namespace MBSWPF.Views
             productDataGrid.ItemsSource = ActiveAccount.searchResults;
         }
 
-        private void btnSearch_Click(object sender, RoutedEventArgs e)
+        private void btnResults_Click(object sender, RoutedEventArgs e)
         {
+            
             string searchContent = txtSearchBar.Text;
 
             int sku = 0;
@@ -61,8 +62,9 @@ namespace MBSWPF.Views
                     }
                 }
 
-
+            
             }
+            productDataGrid.ItemsSource = ActiveAccount.searchResults;
         }
     }
 }
