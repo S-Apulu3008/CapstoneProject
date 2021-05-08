@@ -26,6 +26,10 @@ namespace MBSWPF.Views
         {
             InitializeComponent();
 
+            txtEmployeeID.Text = ActiveAccount.activeEmployee.EmployeeID;
+            txtFirstName.Text = ActiveAccount.activeEmployee.FirstName;
+            txtLastName.Text = ActiveAccount.activeEmployee.LastName;
+
             //txtUserName.Text = ActiveAccount.activeEmployee.FirstName;
 
             Loaded += AccountView_Loaded;

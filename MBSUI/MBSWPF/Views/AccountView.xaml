@@ -51,13 +51,12 @@
         <StackPanel Grid.Row="1" Grid.Column="1">
             <StackPanel.Resources>
                 <Style TargetType="{x:Type TextBox}">
-                    <Setter Property="Margin" Value="0,35,0,0"/>
+                    <Setter Property="Margin" Value="0,50,0,0"/>
                 </Style>
             </StackPanel.Resources>
             <TextBox Text="Employee ID:" HorizontalAlignment="Center" FontSize="20" BorderThickness="5" BorderBrush="Black"/>
             <TextBox Text="First Name:" HorizontalAlignment="Center" FontSize="20" BorderThickness="5" BorderBrush="Black"/>
             <TextBox Text="Last Name:" HorizontalAlignment="Center" FontSize="20" BorderThickness="5" BorderBrush="Black"/>
-            <TextBox Text="Hire Date:" HorizontalAlignment="Center" FontSize="20" BorderThickness="5" BorderBrush="Black"/>
         </StackPanel>
         
         
@@ -65,13 +64,12 @@
         <StackPanel Grid.Row="1" Grid.Column="2">
             <StackPanel.Resources>
                 <Style TargetType="{x:Type TextBlock}">
-                    <Setter Property="Margin" Value="0,35,0,0"/>
+                    <Setter Property="Margin" Value="0,60,0,0"/>
                 </Style>
             </StackPanel.Resources>
-            <TextBlock x:Name="txtEmployeeID" FontSize="20"/>
-            <TextBlock x:Name="txtFirstName" FontSize="20"/>
-            <TextBlock x:Name="txtLastName" FontSize="20"/>
-            <TextBlock x:Name="txtHireDate" FontSize="20"/>
+            <TextBlock x:Name="txtEmployeeID" FontSize="20" HorizontalAlignment="Center"/>
+            <TextBlock x:Name="txtFirstName" FontSize="20"  HorizontalAlignment="Center"/>
+            <TextBlock x:Name="txtLastName" FontSize="20"  HorizontalAlignment="Center"/>
         </StackPanel>
 
 
