@@ -15,19 +15,9 @@
             <MenuItem Header="_Home" Name="LoadHomeView"/>
             <MenuItem Header="_Information">
                 <MenuItem Header="_Login" Name="LoadLoginView"/>                
-                <MenuItem Header="_Account" Name="LoadAccountView"/>
+               <!-- <MenuItem Header="_Account" Name="LoadAccountView"/> -->
             </MenuItem>
-            <MenuItem x:FieldModifier="public" Header="_Management" Name="ManagementOptions">
-                <MenuItem.Style>
-                    <Style TargetType="MenuItem" >
-                        <Setter Property="Background" Value="Transparent"/>
-                        <Style.Triggers>
-                            <DataTrigger Binding="{Binding activeEmployee.IsManager}" Value="false">
-                                <Setter Property="Visibility" Value="Collapsed"/>
-                            </DataTrigger>
-                        </Style.Triggers>
-                    </Style>
-                </MenuItem.Style>
+            <MenuItem x:FieldModifier="public" Header="_Management" Name="ManagementOptions">                
                 <MenuItem  Header="_Manager Tools" Name="LoadManagerView"/>
             </MenuItem>
         </Menu>
