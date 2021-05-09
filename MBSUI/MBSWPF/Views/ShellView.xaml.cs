@@ -27,9 +27,6 @@ namespace MBSWPF.Views
             InitializeComponent();
             mainShellView = this; //mainShellView will refer to this window.
             ManagementOptions.Visibility = Visibility.Hidden; //Hide Manager Options.
-
-
-
             //For this we can either do a .Visibility or .IsEnabled depends on the look.
             //Should possibly consult Norris on the look Maybe.
             //if (ActiveAccount.activeEmployee.IsManager == true)
