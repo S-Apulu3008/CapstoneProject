@@ -1,0 +1,34 @@
+﻿<Window x:Class="MBSWPF.Views.ShellView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MBSWPF.Views"
+        
+        mc:Ignorable="d"
+        Title="MBS" Height="450" Width="800" WindowStartupLocation="CenterScreen" FontSize="18">
+    <DockPanel>
+        <Menu x:Name="MainDockPanel" DockPanel.Dock="Top">
+            <MenuItem Header="_File">
+                <MenuItem Header="_Exit" Click="MenuItemExit_Click"/>
+            </MenuItem>
+            <MenuItem Header="_Home" Name="LoadHomeView"/>
+            <MenuItem Header="_Information">
+                <MenuItem Header="_Login" Name="LoadLoginView"/>                
+               <!-- <MenuItem Header="_Account" Name="LoadAccountView"/> -->
+            </MenuItem>
+            <MenuItem x:FieldModifier="public" Header="_Management" Name="ManagementOptions">                
+                <MenuItem  Header="_Manager Tools" Name="LoadManagerView"/>
+            </MenuItem>
+        </Menu>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <ContentControl Grid.Column="0" Grid.Row="0" x:Name="ActiveItem"/>
+        </Grid>
+    </DockPanel>
+</Window>

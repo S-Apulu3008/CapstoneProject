@@ -1,0 +1,17 @@
+﻿using Caliburn.Micro;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace MBSWPF.ViewModels
+{
+    public class HomeViewModel : Conductor<object>
+    {
+        public void btnSearch() 
+        {
+            ActivateItem(new ResultsViewModel());
+        }
+    }
+}

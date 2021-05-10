@@ -1,0 +1,190 @@
+C:\Users\The King\Desktop\Capstone\MBSUI\MBSWPF\bin\Debug\MBSWPF.exe.config
+C:\Users\The King\Desktop\Capstone\MBSUI\MBSWPF\bin\Debug\MBSWPF.exe
+C:\Users\The King\Desktop\Capstone\MBSUI\MBSWPF\bin\Debug\MBSWPF.pdb
+C:\Users\The King\Desktop\Capstone\MBSUI\MBSWPF\bin\Debug\Caliburn.Micro.dll
+C:\Users\The King\Desktop\Capstone\MBSUI\MBSWPF\bin\Debug\Caliburn.Micro.Platform.Core.dll
+C:\Users\The King\Desktop\Capstone\MBSUI\MBSWPF\bin\Debug\Caliburn.Micro.Platform.dll
+C:\Users\The King\Desktop\Capstone\MBSUI\MBSWPF\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\The King\Desktop\Capstone\MBSUI\MBSWPF\bin\Debug\Caliburn.Micro.xml
+C:\Users\The King\Desktop\Capstone\MBSUI\MBSWPF\bin\Debug\Caliburn.Micro.Platform.xml
+C:\Users\The King\Desktop\Capstone\MBSUI\MBSWPF\bin\Debug\Caliburn.Micro.Platform.Core.xml
+C:\Users\The King\Desktop\Capstone\MBSUI\MBSWPF\obj\Debug\MBSWPF.csprojAssemblyReference.cache
+C:\Users\The King\Desktop\Capstone\MBSUI\MBSWPF\obj\Debug\Views\ShellView.g.cs
+C:\Users\The King\Desktop\Capstone\MBSUI\MBSWPF\obj\Debug\App.g.cs
+C:\Users\The King\Desktop\Capstone\MBSUI\MBSWPF\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\The King\Desktop\Capstone\MBSUI\MBSWPF\obj\Debug\MBSWPF_MarkupCompile.cache
+C:\Users\The King\Desktop\Capstone\MBSUI\MBSWPF\obj\Debug\MBSWPF_MarkupCompile.lref
+C:\Users\The King\Desktop\Capstone\MBSUI\MBSWPF\obj\Debug\App.baml
+C:\Users\The King\Desktop\Capstone\MBSUI\MBSWPF\obj\Debug\Views\ShellView.baml
+C:\Users\The King\Desktop\Capstone\MBSUI\MBSWPF\obj\Debug\MBSWPF.g.resources
+C:\Users\The King\Desktop\Capstone\MBSUI\MBSWPF\obj\Debug\MBSWPF.Properties.Resources.resources
+C:\Users\The King\Desktop\Capstone\MBSUI\MBSWPF\obj\Debug\MBSWPF.csproj.GenerateResource.cache
+C:\Users\The King\Desktop\Capstone\MBSUI\MBSWPF\obj\Debug\MBSWPF.csproj.CoreCompileInputs.cache
+C:\Users\The King\Desktop\Capstone\MBSUI\MBSWPF\obj\Debug\MBSWPF.csproj.CopyComplete
+C:\Users\The King\Desktop\Capstone\MBSUI\MBSWPF\obj\Debug\MBSWPF.exe
+C:\Users\The King\Desktop\Capstone\MBSUI\MBSWPF\obj\Debug\MBSWPF.pdb
+C:\Users\The King\Desktop\Capstone\MBSUI\MBSWPF\bin\Debug\MaterialDesignColors.dll
+C:\Users\The King\Desktop\Capstone\MBSUI\MBSWPF\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\The King\Desktop\Capstone\MBSUI\MBSWPF\bin\Debug\MaterialDesignColors.pdb
+C:\Users\The King\Desktop\Capstone\MBSUI\MBSWPF\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\The King\Desktop\Capstone\MBSUI\MBSWPF\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\The King\Desktop\Capstone\MBSUI\MBSWPF\obj\Debug\Controls\NavigationBar.g.cs
+C:\Users\The King\Desktop\Capstone\MBSUI\MBSWPF\obj\Debug\Views\LoginView.g.cs
+C:\Users\The King\Desktop\Capstone\MBSUI\MBSWPF\obj\Debug\Controls\NavigationBar.baml
+C:\Users\The King\Desktop\Capstone\MBSUI\MBSWPF\obj\Debug\Styles\Common.baml
+C:\Users\The King\Desktop\Capstone\MBSUI\MBSWPF\obj\Debug\Views\LoginView.baml
+C:\Users\The King\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\MBSWPF.csprojAssemblyReference.cache
+C:\Users\The King\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\Views\LoginView.g.cs
+C:\Users\The King\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\Views\ShellView.g.cs
+C:\Users\The King\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\App.g.cs
+C:\Users\The King\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\The King\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\MBSWPF_MarkupCompile.cache
+C:\Users\The King\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\MBSWPF_MarkupCompile.lref
+C:\Users\The King\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\MBSWPF.exe
+C:\Users\The King\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\MBSWPF.pdb
+C:\Users\The King\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\bin\Debug\MBSWPF.exe.config
+C:\Users\The King\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\bin\Debug\MBSWPF.exe
+C:\Users\The King\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\bin\Debug\MBSWPF.pdb
+C:\Users\The King\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\bin\Debug\Caliburn.Micro.dll
+C:\Users\The King\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\bin\Debug\Caliburn.Micro.Platform.Core.dll
+C:\Users\The King\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\bin\Debug\Caliburn.Micro.Platform.dll
+C:\Users\The King\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\bin\Debug\MaterialDesignColors.dll
+C:\Users\The King\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\The King\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\The King\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\bin\Debug\Caliburn.Micro.xml
+C:\Users\The King\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\bin\Debug\Caliburn.Micro.Platform.xml
+C:\Users\The King\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\bin\Debug\Caliburn.Micro.Platform.Core.xml
+C:\Users\The King\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\bin\Debug\MaterialDesignColors.pdb
+C:\Users\The King\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\The King\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\The King\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\App.baml
+C:\Users\The King\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\Views\LoginView.baml
+C:\Users\The King\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\Views\ShellView.baml
+C:\Users\The King\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\MBSWPF.g.resources
+C:\Users\The King\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\MBSWPF.Properties.Resources.resources
+C:\Users\The King\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\MBSWPF.csproj.GenerateResource.cache
+C:\Users\The King\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\MBSWPF.csproj.CoreCompileInputs.cache
+C:\Users\The King\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\MBSWPF.csproj.CopyComplete
+C:\Users\The King\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\Views\AccountView.g.cs
+C:\Users\The King\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\Views\HomeView.g.cs
+C:\Users\The King\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\Views\AccountView.baml
+C:\Users\The King\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\Views\HomeView.baml
+C:\Users\The King\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\bin\Debug\Dapper.dll
+C:\Users\The King\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\bin\Debug\Dapper.xml
+C:\Users\The King\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\Views\ManagerView.g.cs
+C:\Users\The King\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\Views\RegisterView.g.cs
+C:\Users\The King\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\Views\ManagerView.baml
+C:\Users\The King\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\Views\RegisterView.baml
+G:\GitHub\CapstoneProject\MBSUI\MBSWPF\bin\Debug\MBSWPF.exe.config
+G:\GitHub\CapstoneProject\MBSUI\MBSWPF\bin\Debug\MBSWPF.exe
+G:\GitHub\CapstoneProject\MBSUI\MBSWPF\bin\Debug\MBSWPF.pdb
+G:\GitHub\CapstoneProject\MBSUI\MBSWPF\bin\Debug\Caliburn.Micro.dll
+G:\GitHub\CapstoneProject\MBSUI\MBSWPF\bin\Debug\Caliburn.Micro.Platform.Core.dll
+G:\GitHub\CapstoneProject\MBSUI\MBSWPF\bin\Debug\Caliburn.Micro.Platform.dll
+G:\GitHub\CapstoneProject\MBSUI\MBSWPF\bin\Debug\Dapper.dll
+G:\GitHub\CapstoneProject\MBSUI\MBSWPF\bin\Debug\MaterialDesignColors.dll
+G:\GitHub\CapstoneProject\MBSUI\MBSWPF\bin\Debug\MaterialDesignThemes.Wpf.dll
+G:\GitHub\CapstoneProject\MBSUI\MBSWPF\bin\Debug\System.Windows.Interactivity.dll
+G:\GitHub\CapstoneProject\MBSUI\MBSWPF\bin\Debug\Caliburn.Micro.xml
+G:\GitHub\CapstoneProject\MBSUI\MBSWPF\bin\Debug\Caliburn.Micro.Platform.xml
+G:\GitHub\CapstoneProject\MBSUI\MBSWPF\bin\Debug\Caliburn.Micro.Platform.Core.xml
+G:\GitHub\CapstoneProject\MBSUI\MBSWPF\bin\Debug\Dapper.xml
+G:\GitHub\CapstoneProject\MBSUI\MBSWPF\bin\Debug\MaterialDesignColors.pdb
+G:\GitHub\CapstoneProject\MBSUI\MBSWPF\bin\Debug\MaterialDesignThemes.Wpf.pdb
+G:\GitHub\CapstoneProject\MBSUI\MBSWPF\bin\Debug\MaterialDesignThemes.Wpf.xml
+G:\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\MBSWPF.csprojAssemblyReference.cache
+G:\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\Views\AccountView.g.cs
+G:\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\Views\HomeView.g.cs
+G:\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\Views\LoginView.g.cs
+G:\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\Views\ManagerView.g.cs
+G:\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\Views\RegisterView.g.cs
+G:\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\Views\ShellView.g.cs
+G:\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\App.g.cs
+G:\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\GeneratedInternalTypeHelper.g.cs
+G:\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\MBSWPF_MarkupCompile.cache
+G:\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\MBSWPF_MarkupCompile.lref
+G:\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\App.baml
+G:\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\Views\AccountView.baml
+G:\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\Views\HomeView.baml
+G:\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\Views\LoginView.baml
+G:\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\Views\ManagerView.baml
+G:\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\Views\RegisterView.baml
+G:\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\Views\ShellView.baml
+G:\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\MBSWPF.g.resources
+G:\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\MBSWPF.Properties.Resources.resources
+G:\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\MBSWPF.csproj.GenerateResource.cache
+G:\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\MBSWPF.csproj.CoreCompileInputs.cache
+G:\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\MBSWPF.csproj.CopyComplete
+G:\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\MBSWPF.exe
+G:\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\MBSWPF.pdb
+G:\GitHub\CapstoneProject\MBSUI\MBSWPF\bin\Debug\MBSDatabase.mdf
+G:\GitHub\CapstoneProject\MBSUI\MBSWPF\bin\Debug\MBSDatabase_log.ldf
+G:\GitHub\CapstoneProject\MBSUI\MBSWPF\bin\Debug\MBSLibrary.dll
+G:\GitHub\CapstoneProject\MBSUI\MBSWPF\bin\Debug\MBSLibrary.pdb
+G:\GitHub\CapstoneProject\MBSUI\MBSWPF\bin\Debug\MBSLibrary.dll.config
+C:\Users\The King\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\bin\Debug\MBSDatabase.mdf
+C:\Users\The King\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\bin\Debug\MBSDatabase_log.ldf
+C:\Users\The King\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\bin\Debug\MBSLibrary.dll
+C:\Users\The King\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\bin\Debug\MBSLibrary.pdb
+C:\Users\The King\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\bin\Debug\MBSLibrary.dll.config
+G:\GitHub\CapstoneProject\MBSUI\MBSWPF\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+G:\GitHub\CapstoneProject\MBSUI\MBSWPF\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\The King\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\The King\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Sene\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\bin\Debug\MBSDatabase.mdf
+C:\Users\Sene\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\bin\Debug\MBSDatabase_log.ldf
+C:\Users\Sene\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\bin\Debug\MBSWPF.exe.config
+C:\Users\Sene\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\bin\Debug\MBSWPF.exe
+C:\Users\Sene\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\bin\Debug\MBSWPF.pdb
+C:\Users\Sene\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\bin\Debug\Caliburn.Micro.dll
+C:\Users\Sene\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\bin\Debug\Caliburn.Micro.Platform.Core.dll
+C:\Users\Sene\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\bin\Debug\Caliburn.Micro.Platform.dll
+C:\Users\Sene\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\bin\Debug\Dapper.dll
+C:\Users\Sene\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\bin\Debug\MaterialDesignColors.dll
+C:\Users\Sene\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\Sene\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\bin\Debug\MBSLibrary.dll
+C:\Users\Sene\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Sene\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Sene\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\bin\Debug\MBSLibrary.pdb
+C:\Users\Sene\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\bin\Debug\MBSLibrary.dll.config
+C:\Users\Sene\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\bin\Debug\Caliburn.Micro.xml
+C:\Users\Sene\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\bin\Debug\Caliburn.Micro.Platform.xml
+C:\Users\Sene\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\bin\Debug\Caliburn.Micro.Platform.Core.xml
+C:\Users\Sene\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\bin\Debug\Dapper.xml
+C:\Users\Sene\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\bin\Debug\MaterialDesignColors.pdb
+C:\Users\Sene\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\Sene\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\Sene\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Sene\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\MBSWPF.csprojAssemblyReference.cache
+C:\Users\Sene\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\Views\AccountView.g.cs
+C:\Users\Sene\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\Views\HomeView.g.cs
+C:\Users\Sene\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\Views\LoginView.g.cs
+C:\Users\Sene\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\Views\ManagerView.g.cs
+C:\Users\Sene\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\Views\RegisterView.g.cs
+C:\Users\Sene\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\Views\ShellView.g.cs
+C:\Users\Sene\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\App.g.cs
+C:\Users\Sene\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Sene\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\MBSWPF_MarkupCompile.cache
+C:\Users\Sene\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\MBSWPF_MarkupCompile.lref
+C:\Users\Sene\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\App.baml
+C:\Users\Sene\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\Views\AccountView.baml
+C:\Users\Sene\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\Views\HomeView.baml
+C:\Users\Sene\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\Views\LoginView.baml
+C:\Users\Sene\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\Views\ManagerView.baml
+C:\Users\Sene\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\Views\RegisterView.baml
+C:\Users\Sene\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\Views\ShellView.baml
+C:\Users\Sene\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\MBSWPF.g.resources
+C:\Users\Sene\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\MBSWPF.Properties.Resources.resources
+C:\Users\Sene\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\MBSWPF.csproj.GenerateResource.cache
+C:\Users\Sene\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\MBSWPF.csproj.CoreCompileInputs.cache
+C:\Users\Sene\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\MBSWPF.csproj.CopyComplete
+C:\Users\Sene\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\MBSWPF.exe
+C:\Users\Sene\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\MBSWPF.pdb
+C:\Users\The King\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\Views\ResultsView.g.cs
+C:\Users\The King\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\Views\ResultsView.baml
+C:\Users\The King\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\Views\ReportView.g.cs
+C:\Users\The King\Documents\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\Views\ReportView.baml
+G:\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\Views\ReportView.g.cs
+G:\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\Views\ResultsView.g.cs
+G:\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\Views\ReportView.baml
+G:\GitHub\CapstoneProject\MBSUI\MBSWPF\obj\Debug\Views\ResultsView.baml
