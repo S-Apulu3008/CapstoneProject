@@ -55,5 +55,10 @@ namespace MBSWPF.Views
         {
             ManagementOptions.Visibility = Visibility.Visible;
         }
+
+        public void HideOptions() 
+        {
+            ManagementOptions.Visibility = Visibility.Hidden;
+        }
     }
 }

@@ -22,6 +22,7 @@ namespace MBSWPF.Views
     public partial class LoginView : UserControl
     {
         Authenticator authenticator = new Authenticator();
+        ShellView main = ShellView.mainShellView;
         public LoginView()
         {
             InitializeComponent();
@@ -33,7 +34,7 @@ namespace MBSWPF.Views
             string password = txtPassword.Password;
             try
             {
-                ShellView main = ShellView.mainShellView; //main will refer to the mainWindow
+                 //main will refer to the mainWindow
                 Employee thisEmployee = authenticator.Login(employeeId, password);
                 ActiveAccount.activeEmployee = thisEmployee;
                 MessageBox.Show($"Welcome, {thisEmployee.FirstName}");
@@ -47,6 +48,17 @@ namespace MBSWPF.Views
             catch
             {
                 MessageBox.Show("Login Unsuccessful.");
+            }
+        }
+
+        private void btnLogout_Click(object sender, RoutedEventArgs e)
+        {
+            ActiveAccount.activeEmployee = null;
+            if (ActiveAccount.activeEmployee == null)
+            {
+                main.HideOptions();
+                main.Title = "MBS";
+                MessageBox.Show("Logged Out");
             }
         }
     }
