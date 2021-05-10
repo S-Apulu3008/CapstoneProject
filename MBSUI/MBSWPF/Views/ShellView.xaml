@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:MBSWPF.Views"
         
         mc:Ignorable="d"
-        Title="ShellView" Height="450" Width="800" WindowStartupLocation="CenterScreen" FontSize="18">
+        Title="MBS" Height="450" Width="800" WindowStartupLocation="CenterScreen" FontSize="18">
     <DockPanel>
         <Menu x:Name="MainDockPanel" DockPanel.Dock="Top">
             <MenuItem Header="_File">
